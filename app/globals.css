@@ -1,130 +1,1061 @@
+
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
 
+/* ------------------------------------------------------------
+   Tailwind Theme Mapping
+------------------------------------------------------------ */
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
-  --font-mono: var(--font-geist-mono);
-  --font-heading: var(--font-sans);
-  --color-sidebar-ring: var(--sidebar-ring);
-  --color-sidebar-border: var(--sidebar-border);
-  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-  --color-sidebar-accent: var(--sidebar-accent);
-  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-  --color-sidebar-primary: var(--sidebar-primary);
-  --color-sidebar-foreground: var(--sidebar-foreground);
-  --color-sidebar: var(--sidebar);
-  --color-chart-5: var(--chart-5);
-  --color-chart-4: var(--chart-4);
-  --color-chart-3: var(--chart-3);
-  --color-chart-2: var(--chart-2);
-  --color-chart-1: var(--chart-1);
-  --color-ring: var(--ring);
-  --color-input: var(--input);
-  --color-border: var(--border);
-  --color-destructive: var(--destructive);
-  --color-accent-foreground: var(--accent-foreground);
-  --color-accent: var(--accent);
-  --color-muted-foreground: var(--muted-foreground);
-  --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
-  --color-secondary: var(--secondary);
-  --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);
-  --color-popover-foreground: var(--popover-foreground);
-  --color-popover: var(--popover);
-  --color-card-foreground: var(--card-foreground);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
   --color-card: var(--card);
-  --radius-sm: calc(var(--radius) * 0.6);
-  --radius-md: calc(var(--radius) * 0.8);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-destructive: var(--destructive);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --color-brand-red: var(--brand-red);
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-navy: var(--brand-navy);
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-heading: var(--brand-heading);
+  --color-brand-body: var(--brand-body);
+  --color-brand-surface: var(--brand-surface);
+  --color-brand-surface-alt: var(--brand-surface-alt);
+
+   --color-brand-success: var(--brand-success);
+   --color-brand-warning: var(--brand-warning);
+
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+
+  --radius-sm: calc(var(--radius) * .6);
+  --radius-md: calc(var(--radius) * .8);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) * 1.4);
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+   
 }
+
+/* ============================================================
+   Light Theme
+============================================================ */
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* ----------------------------------------------------------
+     FavDoctor Brand Palette
+  ---------------------------------------------------------- */
+
+  /* Primary Brand */
+  --brand-red: #e12629;
+  --brand-blue: #2aa7e2;
+
+  /* Healthcare Palette */
+  --brand-navy: #174f93;
+  --brand-teal: #1c86a8;
+
+  /* Supporting Colors */
+  --brand-success: #16a34a;
+  --brand-warning: #f59e0b;
+
+  /* Typography */
+  --brand-heading: #174f93;
+  --brand-body: #475467;
+
+  /* Backgrounds */
+  --brand-surface: #f8fbff;
+  --brand-surface-alt: #eef7fc;
+
+  /* ----------------------------------------------------------
+    Semantic Colors
+  ---------------------------------------------------------- */
+
+  --background: #ffffff;
+  --foreground: var(--brand-body);
+
+  --card: #ffffff;
+  --card-foreground: var(--brand-body);
+
+  --popover: #ffffff;
+  --popover-foreground: var(--brand-body);
+
+  /* Primary Actions */
+  --primary: var(--brand-navy);
+  --primary-foreground: #ffffff;
+
+  /* Secondary Actions */
+  --secondary: var(--brand-blue);
+  --secondary-foreground: #ffffff;
+
+  /* Accent */
+  --accent: var(--brand-red);
+  --accent-foreground: #ffffff;
+
+  /* Neutral */
+  --muted: var(--brand-surface);
+  --muted-foreground: #667085;
+
+  /* Borders */
+  --border: #dbeaf4;
+  --input: #dbeaf4;
+
+  /* Focus */
+  --ring: var(--brand-blue);
+
+  /* Status */
+  --destructive: #dc2626;
+
+  /* ----------------------------------------------------------
+     Data Visualization
+  ---------------------------------------------------------- */
+
+  --chart-1: var(--brand-navy);
+  --chart-2: var(--brand-blue);
+  --chart-3: var(--brand-red);
+  --chart-4: var(--brand-teal);
+  --chart-5: #94a3b8;
+
+  /* ----------------------------------------------------------
+     Radius
+  ---------------------------------------------------------- */
+
+  --radius: 0.75rem;
+
+  /* ----------------------------------------------------------
+     Sidebar
+  ---------------------------------------------------------- */
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: var(--brand-heading);
+
+  --sidebar-primary: var(--brand-navy);
+  --sidebar-primary-foreground: #ffffff;
+
+  --sidebar-accent: var(--brand-surface);
+  --sidebar-accent-foreground: var(--brand-heading);
+
+  --sidebar-border: #dbeaf4;
+  --sidebar-ring: var(--brand-blue);
+
+  /* ----------------------------------------------------------
+     Layout
+  ---------------------------------------------------------- */
+
+  --container-width: 80rem;
+
+  /* ----------------------------------------------------------
+     Elevation
+  ---------------------------------------------------------- */
+
+  --shadow-xs: 0 1px 2px rgba(16, 24, 40, 0.04);
+
+  --shadow-sm:
+    0 2px 8px rgba(16, 24, 40, 0.05);
+
+  --shadow-md:
+    0 8px 24px rgba(16, 24, 40, 0.08);
+
+  --shadow-lg:
+    0 16px 40px rgba(16, 24, 40, 0.10);
+
+  /* ----------------------------------------------------------
+     Section Spacing
+  ---------------------------------------------------------- */
+
+  --section-padding-y: 6rem;
+  --section-padding-x: 1.5rem;
+
+  /* ----------------------------------------------------------
+     Content Widths
+  ---------------------------------------------------------- */
+
+  --content-width: 72rem;
+  --reading-width: 46rem;
 }
+/* ============================================================
+   Dark Theme
+============================================================ */
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  /* ----------------------------------------------------------
+     Base Theme
+  ---------------------------------------------------------- */
+
+  --background: #08121f;
+  --foreground: #f8fafc;
+
+  --card: #10233f;
+  --card-foreground: #f8fafc;
+
+  --popover: #10233f;
+  --popover-foreground: #f8fafc;
+
+  /* ----------------------------------------------------------
+     Brand
+  ---------------------------------------------------------- */
+
+  --primary: #2aa7e2;
+  --primary-foreground: #08121f;
+
+  --secondary: #174f93;
+  --secondary-foreground: #ffffff;
+
+  --accent: #e12629;
+  --accent-foreground: #ffffff;
+
+
+
+  /* ----------------------------------------------------------
+     Neutral
+  ---------------------------------------------------------- */
+
+  --muted: #16273f;
+  --muted-foreground: #cbd5e1;
+
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.08);
+
+  --ring: #2aa7e2;
+
+  --destructive: #ef4444;
+
+  /* ----------------------------------------------------------
+     Charts
+  ---------------------------------------------------------- */
+
+  --chart-1: #2aa7e2;
+  --chart-2: #1c86a8;
+  --chart-3: #e12629;
+  --chart-4: #38bdf8;
+  --chart-5: #94a3b8;
+
+  /* ----------------------------------------------------------
+     Sidebar
+  ---------------------------------------------------------- */
+
+  --sidebar: #0f1d34;
+  --sidebar-foreground: #f8fafc;
+
+  --sidebar-primary: #2aa7e2;
+  --sidebar-primary-foreground: #08121f;
+
+  --sidebar-accent: #16273f;
+  --sidebar-accent-foreground: #f8fafc;
+
+  --sidebar-border: rgba(255, 255, 255, 0.08);
+  --sidebar-ring: #2aa7e2;
+
+  /* ----------------------------------------------------------
+     Shadows
+  ---------------------------------------------------------- */
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.30);
+
+  --shadow-sm:
+    0 4px 12px rgba(0, 0, 0, 0.35);
+
+  --shadow-md:
+    0 10px 28px rgba(0, 0, 0, 0.40);
+
+  --shadow-lg:
+    0 20px 48px rgba(0, 0, 0, 0.45);
 }
+/* ============================================================
+   Base Styles
+============================================================ */
 
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    @apply font-sans antialiased;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    min-height: 100vh;
   }
-  html {
-    @apply font-sans;
+
+  /* ----------------------------------------------------------
+     Typography
+  ---------------------------------------------------------- */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--brand-heading);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    text-wrap: balance;
   }
+
+  h1 {
+    font-size: clamp(2.75rem, 5vw, 4.75rem);
+  }
+
+  h2 {
+    font-size: clamp(2.2rem, 4vw, 3.5rem);
+  }
+
+  h3 {
+    font-size: clamp(1.6rem, 3vw, 2.25rem);
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1.125rem;
+  }
+
+  p {
+    color: var(--brand-body);
+    line-height: 1.75;
+    text-wrap: pretty;
+  }
+
+  small {
+    color: var(--muted-foreground);
+  }
+
+  strong {
+    color: var(--brand-heading);
+    font-weight: 600;
+  }
+
+  /* ----------------------------------------------------------
+     Links
+  ---------------------------------------------------------- */
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    transition:
+      color .25s ease,
+      opacity .25s ease;
+  }
+
+  a:hover {
+    color: var(--brand-blue);
+  }
+
+  /* ----------------------------------------------------------
+     Media
+  ---------------------------------------------------------- */
+
+  img,
+  picture,
+  video,
+  canvas,
+  svg {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* ----------------------------------------------------------
+     Forms
+  ---------------------------------------------------------- */
+
+  input,
+  textarea,
+  select,
+  button {
+    font: inherit;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  /* ----------------------------------------------------------
+     Lists
+  ---------------------------------------------------------- */
+
+  ul,
+  ol {
+    padding-left: 1.25rem;
+  }
+
+  /* ----------------------------------------------------------
+     Selection
+  ---------------------------------------------------------- */
+
+  ::selection {
+    background: var(--brand-blue);
+    color: #ffffff;
+  }
+
+  /* ----------------------------------------------------------
+     Scrollbar
+  ---------------------------------------------------------- */
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--brand-surface);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #bfd8eb;
+    border-radius: 999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--brand-blue);
+  }
+
+  /* ----------------------------------------------------------
+     Accessibility
+  ---------------------------------------------------------- */
+
+  :focus-visible {
+    outline: 2px solid var(--brand-blue);
+    outline-offset: 3px;
+  }
+
+  /* ----------------------------------------------------------
+     Horizontal Rule
+  ---------------------------------------------------------- */
+
+  hr {
+    border: 0;
+    border-top: 1px solid var(--border);
+    margin-block: 2rem;
+  }
+}
+/* ============================================================
+   Utility Classes
+============================================================ */
+
+/* ----------------------------------------------------------
+   Section Backgrounds
+---------------------------------------------------------- */
+
+.section-light {
+  background: #ffffff;
+}
+
+.section-surface {
+  background: var(--brand-surface);
+}
+
+.section-surface-alt {
+  background: var(--brand-surface-alt);
+}
+
+.bg-healthcare {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f8fbff 55%,
+    #eef7fc 100%
+  );
+}
+
+/* ----------------------------------------------------------
+   Layout
+---------------------------------------------------------- */
+
+.container-brand {
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+
+.container-content {
+  width: 100%;
+  max-width: var(--content-width);
+  margin-inline: auto;
+}
+
+.container-reading {
+  width: 100%;
+  max-width: var(--reading-width);
+  margin-inline: auto;
+}
+
+/* ----------------------------------------------------------
+   Section Spacing
+---------------------------------------------------------- */
+
+.section-padding {
+  padding-block: var(--section-padding-y);
+}
+
+.section-padding-sm {
+  padding-block: 4rem;
+}
+
+.section-padding-lg {
+  padding-block: 8rem;
+}
+
+/* ----------------------------------------------------------
+   Typography
+---------------------------------------------------------- */
+
+.text-heading {
+  color: var(--brand-heading);
+}
+
+.text-body {
+  color: var(--brand-body);
+}
+
+.text-muted {
+  color: var(--muted-foreground);
+}
+
+.text-brand-blue {
+  color: var(--brand-blue);
+}
+
+.text-brand-red {
+  color: var(--brand-red);
+}
+
+.text-brand-teal {
+  color: var(--brand-teal);
+}
+
+/* ----------------------------------------------------------
+   Brand Backgrounds
+---------------------------------------------------------- */
+
+.bg-brand-blue {
+  background: var(--brand-blue);
+}
+
+.bg-brand-red {
+  background: var(--brand-red);
+}
+
+.bg-brand-navy {
+  background: var(--brand-navy);
+}
+
+.bg-brand-teal {
+  background: var(--brand-teal);
+}
+
+/* ----------------------------------------------------------
+   Gradients
+---------------------------------------------------------- */
+
+.text-gradient {
+  background: linear-gradient(
+    90deg,
+    var(--brand-red),
+    var(--brand-blue)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-brand-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--brand-navy) 0%,
+    var(--brand-teal) 55%,
+    var(--brand-blue) 100%
+  );
+}
+
+.bg-soft-gradient {
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f8fbff 100%
+  );
+}
+
+/* ----------------------------------------------------------
+   Borders
+---------------------------------------------------------- */
+
+.border-soft {
+  border: 1px solid var(--border);
+}
+
+.border-brand {
+  border: 1px solid rgba(42, 167, 226, .18);
+}
+
+/* ----------------------------------------------------------
+   Cards
+---------------------------------------------------------- */
+
+.card-soft {
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+}
+
+.card-elevated {
+  background: #ffffff;
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-md);
+}
+
+.card-flat {
+  background: #ffffff;
+  border-radius: var(--radius-xl);
+}
+
+/* ----------------------------------------------------------
+   Shadows
+---------------------------------------------------------- */
+
+.shadow-brand-sm {
+  box-shadow: var(--shadow-sm);
+}
+
+.shadow-brand-md {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-brand-lg {
+  box-shadow: var(--shadow-lg);
+}
+
+/* ----------------------------------------------------------
+   Dividers
+---------------------------------------------------------- */
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+}
+
+.divider-gradient {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--brand-blue),
+    transparent
+  );
+}
+
+/* ----------------------------------------------------------
+   Decorative Elements
+---------------------------------------------------------- */
+
+.dot-pattern {
+  background-image:
+    radial-gradient(
+      rgba(42, 167, 226, .12) 1px,
+      transparent 1px
+    );
+  background-size: 18px 18px;
+}
+
+/* ----------------------------------------------------------
+   Image Helpers
+---------------------------------------------------------- */
+
+.image-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-contain {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ----------------------------------------------------------
+   Transitions
+---------------------------------------------------------- */
+
+.transition-brand {
+  transition:
+    all .3s ease;
+}
+
+.hover-lift {
+  transition:
+    transform .3s ease,
+    box-shadow .3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+/* ============================================================
+   Premium FavDoctor Utilities
+============================================================ */
+
+/* ----------------------------------------------------------
+   Hero Backgrounds
+---------------------------------------------------------- */
+
+.hero-background {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f8fbff 55%,
+    #eef7fc 100%
+  );
+}
+
+.hero-background::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(
+      rgba(42, 167, 226, 0.08) 1px,
+      transparent 1px
+    );
+
+  background-size: 22px 22px;
+  opacity: .6;
+}
+
+.hero-background::after {
+  content: "";
+  position: absolute;
+  right: -180px;
+  top: -180px;
+
+  width: 520px;
+  height: 520px;
+
+  border-radius: 999px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(42,167,226,.12),
+      transparent 72%
+    );
+
+  pointer-events: none;
+}
+
+/* ----------------------------------------------------------
+   Glass Cards
+---------------------------------------------------------- */
+
+.glass-card {
+  background: rgba(255,255,255,.78);
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border: 1px solid rgba(255,255,255,.45);
+
+  border-radius: var(--radius-2xl);
+
+  box-shadow: var(--shadow-md);
+}
+
+.glass-dark {
+  background: rgba(16,42,92,.82);
+
+  backdrop-filter: blur(18px);
+
+  color: white;
+}
+
+/* ----------------------------------------------------------
+   Section Decorations
+---------------------------------------------------------- */
+
+.section-wave-top {
+  position: relative;
+}
+
+.section-wave-top::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  top: 0;
+
+  height: 8px;
+
+  background: linear-gradient(
+    90deg,
+    var(--brand-red),
+    var(--brand-blue)
+  );
+}
+
+.section-highlight {
+  position: relative;
+}
+
+.section-highlight::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -12px;
+
+  width: 72px;
+  height: 4px;
+
+  border-radius: 999px;
+
+  background: var(--brand-blue);
+}
+
+/* ----------------------------------------------------------
+   Healthcare Shapes
+---------------------------------------------------------- */
+
+.circle-soft {
+  width: 320px;
+  height: 320px;
+
+  border-radius: 999px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(42,167,226,.15),
+      transparent 70%
+    );
+}
+
+.circle-red {
+  width: 220px;
+  height: 220px;
+
+  border-radius: 999px;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(225,38,41,.12),
+      transparent 70%
+    );
+}
+
+/* ----------------------------------------------------------
+   Hover Effects
+---------------------------------------------------------- */
+
+.hover-scale {
+  transition:
+    transform .3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.03);
+}
+
+.hover-shadow {
+  transition:
+    box-shadow .3s ease;
+}
+
+.hover-shadow:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.hover-brand {
+  transition:
+    all .3s ease;
+}
+
+.hover-brand:hover {
+  color: var(--brand-blue);
+}
+
+/* ----------------------------------------------------------
+   Buttons
+---------------------------------------------------------- */
+
+.btn-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--brand-red),
+    var(--brand-blue)
+  );
+
+  color: white;
+}
+
+.btn-gradient:hover {
+  filter: brightness(1.05);
+}
+
+.btn-outline-brand {
+  border: 1px solid var(--brand-blue);
+
+  color: var(--brand-blue);
+
+  background: white;
+}
+
+.btn-outline-brand:hover {
+  background: var(--brand-blue);
+  color: white;
+}
+
+/* ----------------------------------------------------------
+   Status Badges
+---------------------------------------------------------- */
+
+.badge-success {
+  background: rgba(22,163,74,.10);
+  color: var(--brand-success);
+}
+
+.badge-warning {
+  background: rgba(245,158,11,.12);
+  color: var(--brand-warning);
+}
+
+.badge-primary {
+  background: rgba(42,167,226,.10);
+  color: var(--brand-blue);
+}
+
+/* ----------------------------------------------------------
+   Animations
+---------------------------------------------------------- */
+
+.fade-up {
+  animation: fadeUp .6s ease forwards;
+}
+
+.float {
+  animation: floating 6s ease-in-out infinite;
+}
+
+.pulse-soft {
+  animation: pulseSoft 2.5s infinite;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes pulseSoft {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: .75;
+  }
+}
+
+/* ----------------------------------------------------------
+   Text Helpers
+---------------------------------------------------------- */
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* ----------------------------------------------------------
+   Overflow Helpers
+---------------------------------------------------------- */
+
+.overflow-fade {
+  position: relative;
+  overflow: hidden;
+}
+
+/* ----------------------------------------------------------
+   Print
+---------------------------------------------------------- */
+
+@media print {
+
+  .no-print {
+    display: none !important;
+  }
+
 }

@@ -1,0 +1,1 @@
+export { PartnerCTA } from "./partner-cta";

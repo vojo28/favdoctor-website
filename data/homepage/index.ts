@@ -1,0 +1,9 @@
+export { hero } from "./hero";
+export { trustedBy } from "./trusted-by";
+export { whatWeBuild } from "./what-we-build";
+export { ecosystem } from "./ecosystem";
+export { impactAreas } from "./impact-areas";
+export { people } from "./people";
+export { research } from "./research";
+export { insights } from "./insights";
+export { partnerCTA } from "./partner-cta";
