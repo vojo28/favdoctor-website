@@ -1,0 +1,277 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<g id="object-1" data-name="Object 1" transform="translate(274 443)">
+  <path id="object-1-1" data-name="Region 1" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 294.5 0 L 339 0.5 L 294.5 1 L 294.5 0 Z " />
+  <path id="object-1-2" data-name="Region 2" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 289.5 1 L 355.5 1 L 356.5 2 L 366.5 2 L 381.5 5 L 389.5 5 L 405.5 9 L 411.5 9 L 422 12.5 L 412.5 13 L 411.5 12 L 400.5 12 L 399.5 11 L 388.5 11 L 387.5 10 L 344.5 10 L 343.5 11 L 290.5 13 L 289.5 14 L 268.5 15 L 266.5 16 L 266.5 15 Q 269.1 15.7 268 13 Q 265.3 14.1 266 11.5 L 264 11.5 L 264 9.5 Q 262.8 3.4 265.5 4 L 266.5 3 L 288.5 2 L 289.5 1 Z " />
+  <path id="object-1-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 278.5 1 L 289 1.5 L 278.5 2 L 278.5 1 Z " />
+  <path id="object-1-4" data-name="Region 4" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 262.5 2 L 274 2.5 L 256.5 4 L 256.5 3 Q 261.2 4.3 262.5 2 Z " />
+  <path id="object-1-5" data-name="Region 5" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 367.5 2 L 372 2.5 L 367.5 3 L 367.5 2 Z " />
+  <path id="object-1-6" data-name="Region 6" fill="rgb(56,136,200)" stroke="rgb(56,136,200)" stroke-width="1" d="M 262.5 3 L 266 3.5 L 264 4 L 263 10.5 L 264.5 12 L 267 10.5 L 266 13 Q 269 12 268 15 L 253.5 18 L 231.5 20 L 232 18.5 L 231.5 16 L 230.5 18 L 229 13 Q 231.7 14.1 231 11.5 L 230 9 L 232 8.5 L 229.5 8 L 226.5 9 L 226.5 8 L 236.5 6 L 251.5 5 L 252.5 4 L 261.5 4 L 262.5 3 Z M 258 7 L 259 13 L 263 15 Q 267 16 266 13 L 261 12 L 262 8 L 261 8 L 258 7 Z M 233 13 Q 231 16 234 15 L 233 13 Z " />
+  <path id="object-1-7" data-name="Region 7" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 373.5 3 L 380 3.5 L 373.5 4 L 373.5 3 Z " />
+  <path id="object-1-8" data-name="Region 8" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 244.5 4 L 251 4.5 L 244.5 5 L 244.5 4 Z " />
+  <path id="object-1-9" data-name="Region 9" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 381.5 4 L 386 4.5 L 381.5 5 L 381.5 4 Z " />
+  <path id="object-1-10" data-name="Region 10" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 233.5 5 L 236 5.5 L 233.5 6 L 233.5 5 Z " />
+  <path id="object-1-11" data-name="Region 11" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 236.5 5 L 242 5.5 L 236.5 6 L 236.5 5 Z " />
+  <path id="object-1-12" data-name="Region 12" fill="rgb(88,121,181)" stroke="rgb(88,121,181)" stroke-width="1" d="M 242.5 5 L 245 5.5 L 242.5 6 L 242.5 5 Z " />
+  <path id="object-1-13" data-name="Region 13" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 262.5 5 L 263 6.5 L 261 11.5 L 266 13 Q 267.3 16.3 262.5 15 L 259 13 L 258 7 L 260.5 8 L 262.5 5 Z " />
+  <path id="object-1-14" data-name="Region 14" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 390.5 5 L 394 5.5 L 390.5 6 L 390.5 5 Z " />
+  <path id="object-1-15" data-name="Region 15" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 223.5 6 L 224 8 L 221 7.5 L 223.5 6 Z " />
+  <path id="object-1-16" data-name="Region 16" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 224.5 6 L 230 6.5 L 224.5 7 L 224.5 6 Z " />
+  <path id="object-1-17" data-name="Region 17" fill="rgb(88,121,181)" stroke="rgb(88,121,181)" stroke-width="1" d="M 231.5 6 L 236 6.5 L 231.5 7 L 231.5 6 Z " />
+  <path id="object-1-18" data-name="Region 18" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 395.5 6 L 399 6.5 L 395.5 7 L 395.5 6 Z " />
+  <path id="object-1-19" data-name="Region 19" fill="rgb(88,121,181)" stroke="rgb(88,121,181)" stroke-width="1" d="M 224.5 7 L 228 7.5 L 226 8.5 L 228.5 9 L 231.5 8 L 231.5 9 Q 229.3 8.3 230 10.5 L 231 13 Q 228.3 11.9 229 14.5 L 230.5 18 L 231.5 16 L 232 18.5 L 228.5 21 L 196.5 24 L 196.5 23 Q 202.3 25.1 201 20.5 L 198.5 17 L 195.5 19 L 196 17.5 Q 195.3 15.3 197.5 16 L 197.5 15 L 195 14.5 L 199 12.5 L 195.5 12 L 193.5 13 L 194.5 11 L 223.5 8 L 224.5 7 Z " />
+  <path id="object-1-20" data-name="Region 20" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 216.5 7 L 218 7.5 Q 215.6 10.1 209.5 9 L 209.5 8 Q 215 9.5 216.5 7 Z " />
+  <path id="object-1-21" data-name="Region 21" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 218.5 7 L 221 7.5 L 218.5 8 L 218.5 7 Z " />
+  <path id="object-1-22" data-name="Region 22" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 401.5 7 L 404 7.5 L 401.5 8 L 401.5 7 Z " />
+  <path id="object-1-23" data-name="Region 23" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 405.5 8 L 409 8.5 L 405.5 9 L 405.5 8 Z " />
+  <path id="object-1-24" data-name="Region 24" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 199.5 9 L 203 9.5 L 198.5 11 L 199.5 9 Z " />
+  <path id="object-1-25" data-name="Region 25" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 203.5 9 L 206 9.5 L 203.5 10 L 203.5 9 Z " />
+  <path id="object-1-26" data-name="Region 26" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 412.5 9 L 415 9.5 L 412.5 10 L 412.5 9 Z " />
+  <path id="object-1-27" data-name="Region 27" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 193.5 10 L 197 10.5 L 193 12.5 L 194.5 13 L 198.5 12 L 198.5 13 L 195 14.5 L 198 15.5 L 196 16 Q 194.9 18.7 197.5 18 L 199 17.5 L 201 23 L 203 23.5 L 201.5 24 L 196 23 Q 197.1 25.7 194.5 25 L 189 24 Q 190.1 26.7 187.5 26 L 185.5 26 L 177.5 26 L 176.5 27 L 174.5 27 L 165.5 27 Q 166.5 30.3 160.5 29 L 159.5 27 L 163 26.5 L 159.5 25 Q 157.3 25.8 158 23.5 L 157 20 L 151 18.5 L 155.5 16 L 160.5 16 Q 159.5 13 164.5 14 L 168 15 Q 166.7 11.7 171.5 13 L 175.5 14 L 178.5 12 Q 179.8 14.2 184.5 13 Q 186 10.5 191.5 12 L 193.5 10 Z " />
+  <path id="object-1-28" data-name="Region 28" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 192.5 10 L 191.5 12 L 186 11.5 L 192.5 10 Z " />
+  <path id="object-1-29" data-name="Region 29" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 344.5 10 L 388 10.5 L 344.5 11 L 344.5 10 Z " />
+  <path id="object-1-30" data-name="Region 30" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 416.5 10 L 419 10.5 L 416.5 11 L 416.5 10 Z " />
+  <path id="object-1-31" data-name="Region 31" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 325.5 11 L 343 11.5 L 325.5 12 L 325.5 11 Z " />
+  <path id="object-1-32" data-name="Region 32" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 390.5 11 L 400 11.5 L 390.5 12 L 390.5 11 Z " />
+  <path id="object-1-33" data-name="Region 33" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 179.5 12 L 185 12.5 L 179.5 13 L 179.5 12 Z " />
+  <path id="object-1-34" data-name="Region 34" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 305.5 12 L 315 12.5 L 305.5 13 L 305.5 12 Z " />
+  <path id="object-1-35" data-name="Region 35" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 408.5 12 L 411 12.5 L 408.5 13 L 408.5 12 Z " />
+  <path id="object-1-36" data-name="Region 36" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 422.5 12 L 429 14.5 L 427.5 15 L 419 13.5 L 422.5 12 Z " />
+  <path id="object-1-37" data-name="Region 37" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 172.5 13 L 176 13.5 L 172.5 14 L 172.5 13 Z " />
+  <path id="object-1-38" data-name="Region 38" fill="rgb(88,121,181)" stroke="rgb(88,121,181)" stroke-width="1" d="M 232.5 13 L 233.5 15 Q 230.7 15.7 232.5 13 Z " />
+  <path id="object-1-39" data-name="Region 39" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 291.5 13 L 299 13.5 L 291.5 14 L 291.5 13 Z " />
+  <path id="object-1-40" data-name="Region 40" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 160.5 14 L 159.5 16 L 153 15.5 L 160.5 14 Z " />
+  <path id="object-1-41" data-name="Region 41" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 281.5 14 L 290 14.5 L 255.5 18 L 255.5 17 L 267.5 16 L 268.5 15 L 280.5 15 L 281.5 14 Z " />
+  <path id="object-1-42" data-name="Region 42" fill="rgb(88,121,181)" stroke="rgb(88,121,181)" stroke-width="1" d="M 151.5 16 L 157 17.5 L 155.5 18 L 152.5 17 L 151 18.5 L 157 20 L 157.5 23 L 159 22.5 L 158 25 L 160.5 24 L 162.5 27 L 158.5 28 L 156.5 27 L 156.5 29 L 151.5 28 Q 150.3 30.2 145.5 29 Q 143.9 25 138 25.5 L 140 25 Q 141.1 22.3 138.5 23 L 138.5 22 L 141 20.5 L 137 19.5 Q 141.1 17.1 148.5 18 L 151.5 16 Z " />
+  <path id="object-1-43" data-name="Region 43" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 142 16 L 149 17.5 L 142 18 L 142 16 Z " />
+  <path id="object-1-44" data-name="Region 44" fill="rgb(56,136,200)" stroke="rgb(56,136,200)" stroke-width="1" d="M 148.5 16 L 151 16.5 L 148.5 17 L 148.5 16 Z " />
+  <path id="object-1-45" data-name="Region 45" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 136 17 L 141 18.5 L 137 19.5 L 142 21.5 L 139.5 22 L 138 22.5 L 140 23 Q 141.1 25.7 138.5 25 L 138.5 26 Q 144 25 145 28.5 L 142.5 30 L 130.5 30 Q 129.8 32.7 125.5 32 L 124.5 31 L 116.5 31 Q 115 34.5 113.5 32 L 79.5 32 L 78.5 31 L 66.5 31 L 63 28.5 Q 62.3 26.3 64.5 27 L 70 26 L 70.5 24 L 80.5 24 L 81.5 23 L 114.5 21 L 116.5 19 L 117.5 20 L 126.5 20 L 129.5 18 L 136 19 L 136 17 Z " />
+  <path id="object-1-46" data-name="Region 46" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 130.5 18 L 134 18.5 L 130.5 19 L 130.5 18 Z " />
+  <path id="object-1-47" data-name="Region 47" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 249.5 18 L 252 18.5 L 249.5 19 L 249.5 18 Z " />
+  <path id="object-1-48" data-name="Region 48" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 120.5 19 L 125 19.5 L 120.5 20 L 120.5 19 Z " />
+  <path id="object-1-49" data-name="Region 49" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 235.5 19 L 244 19.5 L 229.5 21 L 229.5 20 Q 234.3 21.3 235.5 19 Z " />
+  <path id="object-1-50" data-name="Region 50" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 20 L 11 21.5 L 6.5 23 L 0.5 21 L 0.5 20 Z " />
+  <path id="object-1-51" data-name="Region 51" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 104.5 20 L 109 20.5 L 103.5 22 L 104.5 20 Z " />
+  <path id="object-1-52" data-name="Region 52" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 111.5 20 L 115 20.5 L 111.5 21 L 111.5 20 Z " />
+  <path id="object-1-53" data-name="Region 53" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 9.5 22 Q 14.3 20.7 13 24 Q 8.8 24 9.5 22 Z " />
+  <path id="object-1-54" data-name="Region 54" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 95.5 21 L 100 21.5 L 95.5 22 L 95.5 21 Z " />
+  <path id="object-1-55" data-name="Region 55" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 100.5 21 L 103 21.5 L 100.5 22 L 100.5 21 Z " />
+  <path id="object-1-56" data-name="Region 56" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 223.5 21 L 226 21.5 L 223.5 22 L 223.5 21 Z " />
+  <path id="object-1-57" data-name="Region 57" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 16.5 22 L 27.5 24 L 38.5 24 L 41.5 23 Q 49.7 21.7 54.5 24 L 56.5 23 L 61.5 24 L 63.5 24 L 80.5 23 L 80.5 24 L 70.5 24 Q 71.5 27.3 65.5 26 L 63 27 L 64.5 30 L 66 30.5 L 62.5 32 L 60.5 30 Q 51.6 31.4 46.5 29 L 44.5 29 L 42.5 30 L 34.5 27 L 32.5 28 L 20.5 25 L 19 25.5 Q 19.9 22.1 14.5 24 L 14.5 23 L 16.5 22 Z " />
+  <path id="object-1-58" data-name="Region 58" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 13 22 L 16 22.5 L 13.5 24 L 13 22 Z " />
+  <path id="object-1-59" data-name="Region 59" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 85.5 22 L 94 22.5 L 85.5 23 L 85.5 22 Z " />
+  <path id="object-1-60" data-name="Region 60" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 215.5 22 L 218 22.5 L 215.5 23 L 215.5 22 Z " />
+  <path id="object-1-61" data-name="Region 61" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 218.5 22 L 221 22.5 L 218.5 23 L 218.5 22 Z " />
+  <path id="object-1-62" data-name="Region 62" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 15.5 24 Q 19.9 22.5 19 25.5 L 17.5 25 Q 14.5 25.5 15.5 24 Z " />
+  <path id="object-1-63" data-name="Region 63" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 27.5 23 L 39 23.5 L 27.5 24 L 27.5 23 Z " />
+  <path id="object-1-64" data-name="Region 64" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 52.5 23 L 55 23.5 L 52.5 24 L 52.5 23 Z " />
+  <path id="object-1-65" data-name="Region 65" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 57.5 23 L 62 23.5 L 57.5 24 L 57.5 23 Z " />
+  <path id="object-1-66" data-name="Region 66" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 63.5 23 L 69 23.5 L 63.5 24 L 63.5 23 Z " />
+  <path id="object-1-67" data-name="Region 67" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 203.5 23 L 211 23.5 L 203.5 24 L 203.5 23 Z " />
+  <path id="object-1-68" data-name="Region 68" fill="rgb(88,121,181)" stroke="rgb(88,121,181)" stroke-width="1" d="M 189.5 24 L 194 24.5 L 189.5 25 L 189.5 24 Z " />
+  <path id="object-1-69" data-name="Region 69" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 196.5 24 L 202 24.5 L 196.5 25 L 196.5 24 Z " />
+  <path id="object-1-70" data-name="Region 70" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 189.5 25 L 195 25.5 L 189.5 26 L 189.5 25 Z " />
+  <path id="object-1-71" data-name="Region 71" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 23.5 26 L 28 26.5 L 23.5 27 L 23.5 26 Z " />
+  <path id="object-1-72" data-name="Region 72" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 178.5 26 L 186 26.5 L 178.5 27 L 178.5 26 Z " />
+  <path id="object-1-73" data-name="Region 73" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 34.5 27 L 40 28.5 L 36.5 29 L 34.5 27 Z " />
+  <path id="object-1-74" data-name="Region 74" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 167.5 27 L 175 27.5 L 167.5 28 L 167.5 27 Z " />
+  <path id="object-1-75" data-name="Region 75" fill="rgb(120,101,153)" stroke="rgb(120,101,153)" stroke-width="1" d="M 151 28 L 157 29.5 L 151 30 L 151 28 Z " />
+  <path id="object-1-76" data-name="Region 76" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 157 28 L 160 28.5 L 157.5 30 L 157 28 Z " />
+  <path id="object-1-77" data-name="Region 77" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 46.5 29 L 49 29.5 L 46.5 30 L 46.5 29 Z " />
+  <path id="object-1-78" data-name="Region 78" fill="rgb(56,136,200)" stroke="rgb(56,136,200)" stroke-width="1" d="M 143.5 29 L 150 29.5 L 143.5 30 L 143.5 29 Z " />
+  <path id="object-1-79" data-name="Region 79" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 52.5 30 L 61 30.5 L 52.5 31 L 52.5 30 Z " />
+  <path id="object-1-80" data-name="Region 80" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 131.5 30 L 134 30.5 L 131.5 31 L 131.5 30 Z " />
+  <path id="object-1-81" data-name="Region 81" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 134.5 30 L 139 30.5 L 134.5 31 L 134.5 30 Z " />
+  <path id="object-1-82" data-name="Region 82" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 139.5 30 L 143 30.5 L 139.5 31 L 139.5 30 Z " />
+  <path id="object-1-83" data-name="Region 83" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 65.5 31 L 73 31.5 L 65.5 32 L 65.5 31 Z " />
+  <path id="object-1-84" data-name="Region 84" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 73.5 31 L 79 31.5 L 76.5 33 L 73.5 32 L 73.5 31 Z " />
+  <path id="object-1-85" data-name="Region 85" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 116.5 31 L 120 31.5 L 116.5 32 L 116.5 31 Z " />
+  <path id="object-1-86" data-name="Region 86" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 120.5 31 L 125 31.5 L 120.5 32 L 120.5 31 Z " />
+  <path id="object-1-87" data-name="Region 87" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 77.5 32 L 82 32.5 L 77.5 33 L 77.5 32 Z " />
+  <path id="object-1-88" data-name="Region 88" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 82.5 32 L 112 32.5 L 82.5 33 L 82.5 32 Z " />
+</g>
+<g id="object-2" data-name="Object 2" transform="translate(69 326)">
+  <path id="object-2-1" data-name="Region 1" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 29.5 0 L 38.5 1 L 40.5 0 L 42.5 2 L 47.5 3 L 49 2.5 L 48.5 4 L 50.5 3 L 50.5 5 L 55.5 8 L 56.5 7 L 62 12.5 L 61 13.5 L 64 16.5 L 68.5 23 L 70 22.5 L 70 24.5 L 75.5 30 L 77 29.5 Q 74.5 31 78 32.5 L 79 36.5 L 75.5 42 L 72 44.5 L 72.5 46 Q 71.3 43.8 70 46.5 Q 70.8 48.8 68.5 48 L 64 53.5 L 64.5 55 L 62.5 55 L 60 55.5 L 60 57.5 L 58 60.5 Q 60.8 62.3 56.5 64 L 55 63.5 L 52 67.5 L 52 70 L 47 73.5 L 43 80.5 L 45 80.5 L 40 88.5 L 40 92.5 L 41 95.5 L 40 95.5 L 40 93 Q 36.3 94.5 37 91.5 L 33.5 88 Q 32.3 90.2 31 87.5 Q 33.5 86 30 84.5 L 29.5 83 Q 28.3 85.3 27 82.5 L 28 81.5 L 24 77.5 L 21.5 74 Q 20.3 76.2 19 73.5 L 19 71.5 L 15.5 67 L 14 67.5 L 15 65 Q 12.3 66.1 13 63.5 L 9 61.5 Q 11.5 60 8 58.5 L 6.5 56 L 5 56.5 L 6 54.5 L 4.5 52 L 3 52.5 L 4 49.5 Q 1.3 47.3 1.5 42 L 0 42.5 L 1 41.5 L 1 33.5 L 0 30.5 L 2 30.5 L 1 27.5 L 3 23.5 L 2.5 22 L 4 22.5 L 3 20.5 L 5 20.5 L 5 18.5 L 11 11.5 L 10.5 10 Q 12.3 12.8 14 8.5 L 13.5 7 Q 15 9.5 16.5 6 Q 18.8 6.8 18 4.5 L 20 4.5 Q 19.1 1.5 23.5 3 L 29.5 0 Z M 33 15 L 28 20 L 29 24 L 27 24 Q 28 29 32 32 L 34 31 L 34 33 L 37 32 L 41 33 L 45 29 L 45 18 L 42 16 L 40 17 L 33 15 Z " />
+  <path id="object-2-2" data-name="Region 2" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 31.5 0 L 39 0.5 L 31.5 1 L 31.5 0 Z " />
+  <path id="object-2-3" data-name="Region 3" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 24.5 1 L 27 1.5 L 22.5 3 L 22.5 2 L 24.5 1 Z " />
+  <path id="object-2-4" data-name="Region 4" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 42.5 1 L 45.5 1 L 53.5 5 L 69 20.5 L 68.5 23 L 53.5 6 L 45.5 2 L 42.5 2 L 42.5 1 Z " />
+  <path id="object-2-5" data-name="Region 5" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 16.5 5 L 18 5.5 L 8 14.5 L 1.5 27 L 1 25.5 L 5 16.5 L 9.5 11 Q 11.8 11.8 11 9.5 L 16.5 5 Z " />
+  <path id="object-2-6" data-name="Region 6" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 32.5 15 L 34 15.5 Q 29.3 17.7 28 23.5 L 29 27.5 L 33.5 32 L 36 32.5 L 33.5 33 L 30 30.5 L 27 23.5 L 28 19.5 L 32.5 15 Z " />
+  <path id="object-2-7" data-name="Region 7" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 39.5 15 L 45 18 L 45 28.5 L 40.5 33 L 37 32.5 Q 42.5 32 44 27.5 L 44 20.5 L 39.5 15 Z " />
+  <path id="object-2-8" data-name="Region 8" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 70.5 23 L 81 35.5 L 78.5 39 L 75.5 41 L 79 36.5 L 78 32.5 L 70 24.5 L 70.5 23 Z " />
+  <path id="object-2-9" data-name="Region 9" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 1.5 28 L 2 30.5 L 0 29.5 L 1.5 28 Z " />
+  <path id="object-2-10" data-name="Region 10" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 33 L 2 46.5 L 6 55.5 L 13 65 Q 15.7 63.9 15 66.5 L 37 93 Q 41.9 94.8 40 88.5 L 43.5 82 L 44 83.5 L 40 95.5 L 40.5 97 L 37 94.5 L 27.5 82 L 25 80.5 L 9.5 61 Q 7.3 61.8 8 59.5 L 1 47.5 L 0.5 33 Z " />
+  <path id="object-2-11" data-name="Region 11" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 74.5 42 L 72 45.5 L 65.5 54 Q 63.3 53.3 64 55.5 L 59.5 61 L 57.5 62 L 58 60.5 L 60 57.5 L 60.5 55 L 62.5 55 L 67 50.5 L 68.5 48 Q 70.8 48.8 70 46.5 L 74.5 42 Z " />
+  <path id="object-2-12" data-name="Region 12" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 55.5 63 L 56 64.5 L 52.5 69 L 52 67.5 L 52.5 65 Q 53.7 67.3 55 64.5 L 55.5 63 Z " />
+  <path id="object-2-13" data-name="Region 13" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 50.5 70 L 50 71.5 L 43.5 81 L 43 79.5 L 50.5 70 Z " />
+</g>
+<g id="object-3" data-name="Object 3" transform="translate(156 326)">
+  <path id="object-3-1" data-name="Region 1" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 38.5 0 L 39.5 1 L 48.5 1 L 50.5 0 L 50.5 1 L 49 1.5 Q 55.3 1.3 58.5 4 L 59.5 3 L 63.5 7 L 66.5 9 L 68 8.5 L 67 9.5 L 70.5 13 L 72 12.5 L 72 14.5 L 74.5 18 L 76 18.5 L 76 20.5 Q 74.9 23.8 77.5 23 L 77.5 25 L 79 25.5 L 78 28.5 L 80 28.5 L 79 29.5 L 79 43.5 L 79.5 45 L 78 44.5 L 79 48.5 L 74 55.5 L 74.5 57 L 73 57.5 L 73.5 59 Q 71.8 56.2 70 60.5 L 70.5 62 Q 69.2 59.8 68 62.5 L 62 69.5 L 61 73 L 59 73.5 L 59.5 75 L 56 77.5 L 56.5 79 L 55.5 78 L 52 81.5 L 51 83.5 Q 53.3 84.8 50.5 86 Q 48.8 83.3 47 87.5 L 48 89.5 L 45 90.5 L 45.5 92 L 44.5 91 L 42 92.5 L 42 87.5 L 38.5 79 L 37 78.5 L 39 77.5 Q 35.9 75.8 37.5 74 L 35.5 75 L 36 73.5 L 31.5 67 L 30 67.5 L 31.5 70 L 29 67.5 L 29 65.5 L 27.5 63 Q 25.7 65.7 24 61.5 L 25 59.5 L 20.5 55 Q 19.2 57.2 18 54.5 L 18 52.5 L 13.5 47 L 12 47.5 Q 14.5 46 11 44.5 L 5.5 38 L 4 38.5 L 5 36.5 L 2 35 L 3 31.5 Q 0.2 29.7 4.5 28 L 6 28.5 L 8 25.5 L 8.5 23 Q 12.5 23.5 13 20.5 L 17 15.5 Q 14.7 14.3 17.5 13 L 19 13.5 L 19.5 11 L 21 11.5 L 23.5 8 L 25 7.5 L 24.5 6 L 38.5 0 Z " />
+  <path id="object-3-2" data-name="Region 2" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 39.5 0 L 55.5 1 L 60 4.5 L 58.5 4 L 48.5 1 L 39.5 1 L 38 1.5 L 39.5 0 Z " />
+  <path id="object-3-3" data-name="Region 3" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 33.5 1 L 35 1.5 L 29.5 4 L 29.5 3 L 33.5 1 Z " />
+  <path id="object-3-4" data-name="Region 4" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 61.5 4 L 71 11.5 L 75 17.5 L 72 15.5 L 64.5 7 L 61.5 4 Z " />
+  <path id="object-3-5" data-name="Region 5" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 23.5 7 L 25 7.5 L 21 10.5 L 20.5 12 L 20 10.5 L 23.5 7 Z " />
+  <path id="object-3-6" data-name="Region 6" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 18.5 12 L 19 13.5 L 10.5 23 L 9 22.5 L 15.5 15 L 18 13.5 L 18.5 12 Z " />
+  <path id="object-3-7" data-name="Region 7" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 75.5 19 L 78 22.5 L 76 23 L 75.5 19 Z " />
+  <path id="object-3-8" data-name="Region 8" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 8.5 24 L 8 25.5 L 6 28.5 Q 1.3 29.9 2 35 L 5 36.5 L 30.5 67 L 33 68.5 L 36 74 L 38 74.5 L 37 75.5 L 38.5 78 L 36 76.5 L 36 74.5 L 18.5 54 Q 16.3 54.8 17 52.5 L 13 47 Q 10.3 48.1 11 45.5 L 0 33.5 L 8.5 24 Z " />
+  <path id="object-3-9" data-name="Region 9" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 78.5 26 L 81 37.5 L 78.5 47 L 78 44.5 L 79 43.5 L 79 29.5 L 78.5 26 Z " />
+  <path id="object-3-10" data-name="Region 10" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 77.5 51 L 77 52.5 L 74.5 56 L 75 54.5 L 77.5 51 Z " />
+  <path id="object-3-11" data-name="Region 11" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 73.5 57 L 73 58.5 L 71.5 61 Q 69.3 60.3 70 62.5 L 60.5 74 L 59 73.5 L 61 73 L 62 69.5 L 73.5 57 Z " />
+  <path id="object-3-12" data-name="Region 12" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 58.5 75 L 56 78.5 L 47 91 Q 44.3 89.9 45 92.5 L 41.5 98 Q 42 86.6 38 79.5 L 40 80.5 L 42.5 93 L 58.5 75 Z " />
+</g>
+<g id="object-4" data-name="Object 4" transform="translate(118 370)">
+  <path id="object-4-1" data-name="Region 1" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 35.5 0 L 37.5 0 L 42 4.5 L 65 30.5 L 70 39.5 L 70 42.5 L 69 42.5 L 69 39.5 L 62 28.5 L 37.5 1 L 35.5 1 L 27 9.5 L 25 12.5 L 9 30.5 L 2.5 41 L 2 39.5 L 6 32.5 L 31.5 3 L 34.5 1 L 35.5 0 Z " />
+  <path id="object-4-2" data-name="Region 2" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 35.5 1 L 41 4.5 L 67 35.5 Q 72.3 44.2 70 60.5 Q 66.3 72.3 57.5 79 L 43.5 86 L 27.5 86 Q 15.9 83.1 9 75.5 L 2 64.5 L 1 45.5 L 6 34.5 L 25 11 Q 27.7 12.1 27 9.5 L 35.5 1 Z " />
+  <path id="object-4-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 1.5 42 L 2 44.5 L 1 44.5 L 1.5 42 Z " />
+  <path id="object-4-4" data-name="Region 4" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 70.5 44 L 71 58.5 L 70 58.5 L 70.5 44 Z " />
+  <path id="object-4-5" data-name="Region 5" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 0.5 47 L 1 58.5 L 0 58.5 L 0.5 47 Z " />
+  <path id="object-4-6" data-name="Region 6" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 1.5 60 L 2 62.5 L 1 62.5 L 1.5 60 Z " />
+  <path id="object-4-7" data-name="Region 7" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 68.5 64 L 69 65.5 Q 65 74.5 57.5 80 L 47.5 85 L 47.5 84 Q 57.4 80.9 63 73.5 L 68.5 64 Z " />
+  <path id="object-4-8" data-name="Region 8" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 2.5 65 L 11.5 78 L 17 81.5 L 15.5 82 L 8 75.5 L 2 66.5 L 2.5 65 Z " />
+  <path id="object-4-9" data-name="Region 9" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 18.5 82 L 27 85.5 L 24.5 86 L 19.5 84 L 18.5 82 Z " />
+  <path id="object-4-10" data-name="Region 10" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 29.5 86 L 41 86.5 L 29.5 87 L 29.5 86 Z " />
+</g>
+<g id="object-5" data-name="Object 5" transform="translate(421 355)">
+  <path id="object-5-1" data-name="Region 1" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 39 0 L 51.5 0 L 52 1.5 L 50.5 1 L 40 1 L 40 24.5 L 38.5 25 L 39 23.5 L 39 0 Z " />
+  <path id="object-5-2" data-name="Region 2" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 40 1 L 50.5 1 L 52 2.5 L 52 44.5 L 51 45.5 Q 53.5 47 52 52.5 L 51 54.5 L 52 58.5 L 51 60.5 L 52 65.5 L 52 67.5 L 51.5 70 L 40 70 L 39.5 65 Q 34 72.5 20.5 72 Q 11.5 70.5 7 64.5 L 2 55.5 L 1 41.5 L 4 31.5 L 11.5 23 L 19.5 19 L 28.5 19 L 40 25 L 40 1 Z M 26 29 L 19 32 Q 14 35 13 42 Q 12 52 16 57 Q 19 61 26 62 L 34 60 L 40 52 Q 42 41 38 36 Q 35 29 26 29 Z " />
+  <path id="object-5-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 20.5 18 L 28 18.5 L 20.5 19 L 20.5 18 Z " />
+  <path id="object-5-4" data-name="Region 4" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 16.5 19 L 19 19.5 Q 10.5 22 6 28.5 Q -0.1 35.9 1 50.5 L 2 54.5 L 1 54.5 L 0 40.5 Q 2.4 27.9 11.5 22 L 16.5 19 Z " />
+  <path id="object-5-5" data-name="Region 5" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 29.5 19 L 37 23.5 L 34.5 22 L 29.5 20 L 29.5 19 Z " />
+  <path id="object-5-6" data-name="Region 6" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 25.5 29 Q 34.6 29.4 38 35.5 L 39 38.5 L 38 38.5 L 33.5 32 L 25.5 30 L 17 34.5 L 14.5 40 L 14 37.5 L 18.5 32 L 25.5 29 Z " />
+  <path id="object-5-7" data-name="Region 7" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 39.5 40 L 40 51.5 L 38.5 54 L 38 52.5 L 39 51.5 L 39.5 40 Z " />
+  <path id="object-5-8" data-name="Region 8" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 13.5 41 L 14 49.5 L 13 49.5 L 13.5 41 Z " />
+  <path id="object-5-9" data-name="Region 9" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 14.5 51 L 18.5 58 L 24 60.5 L 21.5 61 L 16 56.5 L 14.5 51 Z " />
+  <path id="object-5-10" data-name="Region 10" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 37.5 55 L 33.5 60 L 30.5 61 L 30.5 60 L 37.5 55 Z " />
+  <path id="object-5-11" data-name="Region 11" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 2.5 56 L 10 67.5 L 6 64.5 Q 2 61.4 2.5 56 Z " />
+  <path id="object-5-12" data-name="Region 12" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 25.5 61 L 29 61.5 L 25.5 62 L 25.5 61 Z " />
+  <path id="object-5-13" data-name="Region 13" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 39.5 65 L 40 70 L 52 70.5 L 39 71 L 39.5 65 Z " />
+  <path id="object-5-14" data-name="Region 14" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 37.5 66 L 34.5 70 L 28.5 72 L 28.5 71 Q 34.8 70.3 37.5 66 Z " />
+  <path id="object-5-15" data-name="Region 15" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 11.5 68 L 20 71.5 L 16.5 72 Q 11.9 70.8 11.5 68 Z " />
+</g>
+<g id="object-6" data-name="Object 6" transform="translate(482 373)">
+  <path id="object-6-1" data-name="Region 1" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 20.5 1 Q 39.8 -0.3 47 10.5 Q 52.9 17.6 52 31.5 Q 50.2 41.2 44.5 47 Q 39.7 52.2 31.5 54 L 21.5 54 Q 10.4 51.6 5 43.5 Q -1 36.5 1 21.5 Q 3.4 11.4 10.5 6 L 20.5 1 Z M 24 11 L 16 15 L 12 27 L 13 34 L 15 38 Q 17 43 24 44 Q 31 45 34 42 Q 38 38 40 32 Q 42 21 37 17 Q 33 11 24 11 Z " />
+  <path id="object-6-2" data-name="Region 2" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 21.5 0 L 31 0.5 L 21.5 1 L 21.5 0 Z " />
+  <path id="object-6-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 32.5 1 L 39 3.5 L 37.5 3 L 32.5 2 L 32.5 1 Z " />
+  <path id="object-6-4" data-name="Region 4" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 15.5 2 L 17 2.5 Q 10.1 5.1 6 10.5 L 2.5 17 L 2 15.5 L 11.5 4 L 15.5 2 Z " />
+  <path id="object-6-5" data-name="Region 5" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 40.5 4 L 47 9.5 L 42.5 6 L 40.5 4 Z " />
+  <path id="object-6-6" data-name="Region 6" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 23.5 11 L 28 11.5 Q 19.1 11.6 16 17.5 L 13.5 24 L 13 21.5 L 16 15 L 23.5 11 Z " />
+  <path id="object-6-7" data-name="Region 7" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 47.5 11 L 51 17.5 L 50 17.5 L 47.5 11 Z " />
+  <path id="object-6-8" data-name="Region 8" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 29.5 12 L 31.5 12 L 37 16.5 L 38 18.5 L 35 16.5 Q 35.8 14.3 33.5 15 L 29.5 13 L 29.5 12 Z " />
+  <path id="object-6-9" data-name="Region 9" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 1.5 18 L 2 20.5 L 1 21.5 L 0.5 34 L 0 21.5 L 1.5 18 Z " />
+  <path id="object-6-10" data-name="Region 10" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 51.5 19 L 52 22.5 L 51 22.5 L 51.5 19 Z " />
+  <path id="object-6-11" data-name="Region 11" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 38.5 20 Q 41.7 23.3 40 31.5 L 39 31.5 Q 39.6 23.3 38.5 20 Z " />
+  <path id="object-6-12" data-name="Region 12" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 12.5 26 L 13 28.5 L 12 28.5 L 12.5 26 Z " />
+  <path id="object-6-13" data-name="Region 13" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 13.5 30 Q 14.6 38.4 20.5 42 L 22 42.5 L 20.5 43 Q 13.3 39.1 13.5 30 Z " />
+  <path id="object-6-14" data-name="Region 14" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 51.5 32 L 52 35.5 L 49.5 40 L 50 38.5 L 51.5 32 Z " />
+  <path id="object-6-15" data-name="Region 15" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 2.5 38 Q 4.9 45.6 11 49.5 L 4 43.5 Q 1 41.7 2.5 38 Z " />
+  <path id="object-6-16" data-name="Region 16" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 36.5 38 L 33.5 42 Q 30.5 45 23.5 44 L 23.5 43 L 29.5 43 L 36.5 38 Z " />
+  <path id="object-6-17" data-name="Region 17" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 48.5 41 L 49 42.5 L 46 44.5 L 48.5 41 Z " />
+  <path id="object-6-18" data-name="Region 18" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 45.5 46 L 43.5 49 L 38.5 52 L 39.5 50 L 45.5 46 Z " />
+  <path id="object-6-19" data-name="Region 19" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 12.5 50 L 17 52.5 L 15.5 53 L 12.5 50 Z " />
+  <path id="object-6-20" data-name="Region 20" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 35.5 52 L 37 52.5 L 32.5 54 L 32.5 53 L 35.5 52 Z " />
+  <path id="object-6-21" data-name="Region 21" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 18.5 53 L 21 53.5 L 18.5 54 L 18.5 53 Z " />
+</g>
+<g id="object-7" data-name="Object 7" transform="translate(633 373)">
+  <path id="object-7-1" data-name="Region 1" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 21.5 0 L 31 0.5 L 21.5 1 L 21.5 0 Z " />
+  <path id="object-7-2" data-name="Region 2" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 20.5 1 L 32.5 1 Q 41.7 3.8 47 10.5 L 51 18.5 L 52 27.5 L 51 28.5 L 51 36.5 L 48 42.5 L 40.5 50 Q 34.2 55.7 20.5 54 Q 10.3 51.3 5 43.5 Q -1 36.5 1 21.5 L 5 11.5 L 11.5 5 L 20.5 1 Z M 26 11 L 20 13 Q 13 17 12 26 L 13 34 L 15 38 Q 17 43 24 44 Q 31 45 34 42 L 40 33 Q 41 22 37 17 Q 34 11 26 11 Z " />
+  <path id="object-7-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 17.5 1 L 20 1.5 Q 10.3 3.8 5.5 11 L 11.5 4 L 17.5 1 Z " />
+  <path id="object-7-4" data-name="Region 4" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 33.5 1 L 37 2.5 L 35.5 3 L 33.5 1 Z " />
+  <path id="object-7-5" data-name="Region 5" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 40.5 4 L 47 9.5 L 42.5 6 L 40.5 4 Z " />
+  <path id="object-7-6" data-name="Region 6" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 25.5 11 L 28 11.5 L 25.5 12 L 25.5 11 Z " />
+  <path id="object-7-7" data-name="Region 7" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 47.5 11 L 51 17.5 L 50 17.5 L 47.5 11 Z " />
+  <path id="object-7-8" data-name="Region 8" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 4.5 12 L 5 13.5 Q 1.6 15.6 1.5 21 L 1 17.5 L 4.5 12 Z " />
+  <path id="object-7-9" data-name="Region 9" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 21.5 12 L 24 12.5 Q 18 13.5 15.5 18 L 19.5 13 L 21.5 12 Z " />
+  <path id="object-7-10" data-name="Region 10" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 29.5 12 L 31.5 12 L 37 16.5 L 39 21.5 L 38 21.5 L 35 15 L 29.5 13 L 29.5 12 Z " />
+  <path id="object-7-11" data-name="Region 11" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 14.5 19 L 15 20.5 L 12.5 28 L 12 25.5 L 14.5 19 Z " />
+  <path id="object-7-12" data-name="Region 12" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 51.5 20 L 52 25.5 L 51 25.5 L 51.5 20 Z " />
+  <path id="object-7-13" data-name="Region 13" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 0.5 23 L 1 31.5 L 0 31.5 L 0.5 23 Z " />
+  <path id="object-7-14" data-name="Region 14" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 39.5 23 L 40 32.5 L 37.5 37 L 38 35.5 L 39.5 23 Z " />
+  <path id="object-7-15" data-name="Region 15" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 51.5 28 L 52 34.5 L 51 34.5 L 51.5 28 Z " />
+  <path id="object-7-16" data-name="Region 16" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 13.5 30 L 15 35.5 L 14 35.5 L 13.5 30 Z " />
+  <path id="object-7-17" data-name="Region 17" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 1.5 35 Q 3.9 45.1 11.5 50 L 20 53.5 L 17.5 54 Q 8.8 50.8 4 43.5 L 1 37.5 L 1.5 35 Z " />
+  <path id="object-7-18" data-name="Region 18" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 15.5 37 L 22 42.5 L 20.5 43 L 15.5 37 Z " />
+  <path id="object-7-19" data-name="Region 19" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 50.5 37 L 51 38.5 L 48.5 42 L 49 40.5 L 50.5 37 Z " />
+  <path id="object-7-20" data-name="Region 20" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 36.5 38 L 33.5 42 Q 30.5 45 23.5 44 L 23.5 43 L 29.5 43 L 36.5 38 Z " />
+  <path id="object-7-21" data-name="Region 21" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 47.5 43 L 46 45.5 Q 46.8 47.8 44.5 47 L 38.5 52 L 39.5 50 L 47.5 43 Z " />
+  <path id="object-7-22" data-name="Region 22" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 35.5 52 L 37 52.5 L 32.5 54 L 32.5 53 L 35.5 52 Z " />
+</g>
+<g id="object-8" data-name="Object 8" transform="translate(316 373)">
+  <path id="object-8-1" data-name="Region 1" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 18.5 0 L 32.5 1 L 40 5.5 L 46 17.5 L 46 53 L 33.5 53 L 33 49.5 L 34 49.5 L 34 52 L 39.5 52 L 41.5 51 L 45 51.5 L 45 19.5 L 42 9.5 L 37.5 5 Q 32.5 1 23.5 1 L 21.5 1 L 14.5 2 L 10.5 4 L 11.5 2 L 18.5 0 Z " />
+  <path id="object-8-2" data-name="Region 2" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 19.5 1 L 22.5 2 L 26.5 1 L 31.5 2 L 39.5 7 L 41 6.5 Q 38.5 8 42 9.5 L 45 19.5 L 45 51.5 L 41.5 51 L 34 52 L 32.5 48 L 30 49 L 28.5 52 L 11.5 53 L 4 47.5 L 1 40.5 L 1 38.5 Q 2.2 30.2 8.5 27 Q 10.8 27.8 10 25.5 L 12.5 25 L 16 24.5 L 15.5 23 Q 16.8 25.3 21.5 24 L 29.5 22 L 32.5 23 L 34 19.5 L 31 16.5 L 32 15.5 Q 32.8 13.3 30.5 14 Q 28 9.5 19.5 11 L 11.5 15 L 8.5 14 Q 6.3 14.8 7 12.5 Q 4.3 11.8 5 7.5 L 9 5 L 9.5 3 L 11.5 3 L 19.5 1 Z M 23 30 Q 21 33 17 32 L 13 38 Q 12 41 15 40 L 14 42 L 22 45 L 26 44 L 28 44 L 31 42 L 32 41 L 32 37 L 34 31 Q 31 29 23 30 Z " />
+  <path id="object-8-3" data-name="Region 3" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 7.5 4 L 9 4.5 L 5 7.5 L 5 10.5 L 7 14 L 9.5 15 L 11 14.5 Q 11.8 16.8 9.5 16 Q 8.3 18.3 7 15.5 L 3 8.5 L 5.5 5 L 7.5 4 Z " />
+  <path id="object-8-4" data-name="Region 4" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 19.5 11 L 26.5 11 L 32 14 L 33 16.5 L 29.5 14 Q 26.5 11 19.5 12 L 12.5 15 L 13.5 13 L 19.5 11 Z " />
+  <path id="object-8-5" data-name="Region 5" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 32.5 18 L 34 21.5 L 30.5 23 L 30.5 22 L 32 22 L 32.5 18 Z " />
+  <path id="object-8-6" data-name="Region 6" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 21.5 22 Q 26.8 20.8 28 23.5 L 26.5 23 L 16.5 24 L 11.5 26 L 12.5 24 L 21.5 22 Z " />
+  <path id="object-8-7" data-name="Region 7" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 9.5 25 L 10 27 L 4 31.5 L 1.5 37 L 1 33.5 L 7.5 26 L 9.5 25 Z " />
+  <path id="object-8-8" data-name="Region 8" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 22.5 30 L 32 30.5 L 20.5 32 L 20.5 31 L 22.5 30 Z " />
+  <path id="object-8-9" data-name="Region 9" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 33.5 31 L 34 33.5 L 32.5 36 L 32 34.5 L 33.5 31 Z " />
+  <path id="object-8-10" data-name="Region 10" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 16.5 32 L 18 32.5 L 15.5 34 L 16.5 32 Z " />
+  <path id="object-8-11" data-name="Region 11" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 14.5 36 L 14 37.5 L 13.5 40 L 13 37.5 L 14.5 36 Z " />
+  <path id="object-8-12" data-name="Region 12" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 38 Q 3.5 39.5 0.5 41 L 0.5 38 Z " />
+  <path id="object-8-13" data-name="Region 13" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 31.5 39 L 32 40.5 L 27.5 44 L 27 42 L 31.5 39 Z " />
+  <path id="object-8-14" data-name="Region 14" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 1.5 42 L 7.5 51 Q 12.5 55 23.5 53 L 26.5 52 L 26.5 53 L 24.5 54 L 10.5 54 L 4 49.5 Q -0.2 46.9 1.5 42 Z " />
+  <path id="object-8-15" data-name="Region 15" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 18.5 43 L 21.5 44 L 25.5 43 L 25.5 44 L 21.5 45 L 18.5 44 L 18.5 43 Z " />
+</g>
+<g id="object-9" data-name="Object 9" transform="translate(266 355)">
+  <path id="object-9-1" data-name="Region 1" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0 0 L 2.5 1 L 3.5 0 L 26.5 0 L 26.5 1 Q 18.3 -0.7 14.5 2 L 12.5 1 L 9.5 2 L 7.5 2 L 0.5 2 L 0 0 Z " />
+  <path id="object-9-2" data-name="Region 2" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 28.5 0 L 46.5 0 L 47 2 L 36.5 1 L 34.5 2 Q 33.2 -0.3 28.5 1 L 28.5 0 Z " />
+  <path id="object-9-3" data-name="Region 3" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 27.5 0 L 35.5 2 L 39.5 1 Q 41 3.5 46.5 2 L 48 1.5 L 48 6.5 Q 45 7.8 46 12 L 13.5 12 L 12 13.5 L 12 30.5 L 15.5 31 L 20.5 32 L 21.5 31 L 37.5 31 L 39.5 31 L 42 33.5 L 42 40.5 L 41.5 41 L 13.5 41 L 12 42.5 L 12 70 L 2.5 70 L 1 68.5 L 1 59.5 L 0 58.5 L 1 55.5 L 1 53.5 L 1 36.5 L 0 34.5 L 1 31.5 L 1 29.5 L 0 26.5 L 1 21.5 L 0 18.5 L 1 16.5 L 0 14.5 L 0 12.5 L 1 9.5 L 0 8.5 L 1.5 6 L 0 5.5 L 0 3.5 L 0.5 2 L 7.5 2 L 9.5 2 L 13.5 1 L 15.5 2 L 16.5 1 L 26.5 1 L 27.5 0 Z " />
+  <path id="object-9-4" data-name="Region 4" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0 6 L 2 6.5 L 0 7.5 L 0 6 Z " />
+  <path id="object-9-5" data-name="Region 5" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 47.5 7 L 48 9.5 L 47 13 L 13 13 L 13 30 L 41.5 30 L 42 31.5 L 43 32.5 L 43 42 L 13 42 L 13 71 L 0 71 L 0.5 59 L 1 68.5 L 2.5 70 L 12 70 L 12 42.5 L 13.5 41 L 42 41 L 42 33.5 L 39.5 31 L 37.5 31 L 21.5 31 L 16.5 32 L 12 31 L 12 13.5 L 13.5 12 L 45.5 12 L 46 8.5 L 47.5 7 Z " />
+  <path id="object-9-6" data-name="Region 6" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 47.5 10 L 48 12.5 L 47 12.5 L 47.5 10 Z " />
+  <path id="object-9-7" data-name="Region 7" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 21 L 1 25.5 L 0 25.5 L 0.5 21 Z " />
+  <path id="object-9-8" data-name="Region 8" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 27 L 1 29.5 L 0 29.5 L 0.5 27 Z " />
+  <path id="object-9-9" data-name="Region 9" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 31 L 1 33.5 L 0 33.5 L 0.5 31 Z " />
+  <path id="object-9-10" data-name="Region 10" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 36 L 1 53.5 L 0 53.5 L 0.5 36 Z " />
+  <path id="object-9-11" data-name="Region 11" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 55 L 1 57.5 L 0 57.5 L 0.5 55 Z " />
+</g>
+<g id="object-10" data-name="Object 10" transform="translate(539 373)">
+  <path id="object-10-1" data-name="Region 1" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 21.5 1 Q 39.8 -0.3 46 10.5 L 48 14.5 L 45.5 15 L 38.5 18 L 36 14 L 28.5 11 L 24.5 11 L 16 16.5 Q 11.8 21.3 13 31.5 L 18.5 41 L 21.5 43 L 29.5 44 L 39.5 38 L 48 42.5 L 41.5 50 L 33.5 54 L 22.5 54 L 11.5 50 L 7 45.5 L 2 36.5 L 1 26.5 L 3 16.5 L 8.5 8 Q 13.3 2.8 21.5 1 Z " />
+  <path id="object-10-2" data-name="Region 2" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 21.5 0 L 31 0.5 Q 21.7 -0.3 16.5 3 L 16.5 2 L 21.5 0 Z " />
+  <path id="object-10-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 32.5 1 L 39 3.5 L 37.5 3 L 32.5 2 L 32.5 1 Z " />
+  <path id="object-10-4" data-name="Region 4" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 12.5 4 L 9.5 8 L 7 9.5 L 2.5 19 L 2 16.5 L 10.5 5 L 12.5 4 Z " />
+  <path id="object-10-5" data-name="Region 5" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 40.5 4 L 48 12.5 L 46 11.5 L 40.5 4 Z " />
+  <path id="object-10-6" data-name="Region 6" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 24.5 11 L 29 11.5 L 20.5 14 L 21.5 12 L 24.5 11 Z " />
+  <path id="object-10-7" data-name="Region 7" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 30.5 12 L 36 14 L 39 18.5 L 37 19 L 33.5 14 Q 29.7 13.7 30.5 12 Z " />
+  <path id="object-10-8" data-name="Region 8" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 18.5 14 L 17 16.5 Q 12.8 21.3 14 31.5 L 18.5 40 L 23 42.5 L 21.5 43 L 16 38.5 Q 11.8 33.7 13 23.5 L 18.5 14 Z " />
+  <path id="object-10-9" data-name="Region 9" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 46.5 14 L 45.5 16 L 40.5 18 L 40.5 17 L 46.5 14 Z " />
+  <path id="object-10-10" data-name="Region 10" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 1.5 20 L 2 25.5 L 0.5 28 L 0 26.5 L 1.5 20 Z " />
+  <path id="object-10-11" data-name="Region 11" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 1.5 30 L 2 35.5 L 1 35.5 L 1.5 30 Z " />
+  <path id="object-10-12" data-name="Region 12" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 38.5 37 L 42 38.5 L 40.5 39 L 38.5 38 L 31.5 43 L 31.5 42 L 38.5 37 Z " />
+  <path id="object-10-13" data-name="Region 13" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 43.5 39 L 48 41.5 L 46.5 42 L 43.5 39 Z " />
+  <path id="object-10-14" data-name="Region 14" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 3.5 40 L 11 49.5 L 5 44.5 L 3.5 40 Z " />
+  <path id="object-10-15" data-name="Region 15" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 27.5 43 L 30 43.5 L 27.5 44 L 27.5 43 Z " />
+  <path id="object-10-16" data-name="Region 16" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 47.5 43 L 46.5 45 L 47.5 43 Z " />
+  <path id="object-10-17" data-name="Region 17" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 45.5 46 L 41.5 51 L 34.5 54 L 34.5 53 Q 41.8 51.3 45.5 46 Z " />
+  <path id="object-10-18" data-name="Region 18" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 12.5 50 L 22 53.5 L 18.5 54 L 13.5 52 L 12.5 50 Z " />
+</g>
+<g id="object-11" data-name="Object 11" transform="translate(365 374)">
+  <path id="object-11-1" data-name="Region 1" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 39.5 0 L 52.5 0 L 53 1.5 L 44 25.5 L 40.5 30 L 41 28.5 L 49 9.5 L 51 1 L 41.5 2 Q 40.3 -0.3 39 2.5 L 37 12.5 L 34 16.5 Q 34 23 30.5 26 L 31 24.5 L 35 10.5 L 37 8.5 L 38 1.5 L 39.5 0 Z " />
+  <path id="object-11-2" data-name="Region 2" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 0.5 0 L 14.5 0 L 15 2.5 L 15.5 4 Q 13.3 4.8 14 2.5 L 12.5 1 L 0.5 1 L 0.5 0 Z " />
+  <path id="object-11-3" data-name="Region 3" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 1.5 1 L 12.5 1 L 14 2.5 Q 13.3 4.8 15.5 4 L 15 5.5 L 18.5 16 L 20 15.5 L 19 18.5 L 25 36 L 29 34.5 L 28 31.5 L 30 31.5 L 31 27.5 Q 28.5 26 32 24.5 L 34 16.5 L 37 12.5 L 37 9.5 L 36.5 8 L 38 8.5 Q 37.5 3 40.5 1 Q 42 3.5 47.5 2 L 51 1 L 52 4.5 L 50 4.5 L 41 28.5 L 41 30.5 L 31.5 51 Q 25.2 52.8 23.5 50 L 21.5 51 Q 17.8 49 19.5 47 Q 17.3 47.8 18 45.5 Q 20.5 44 17 42.5 L 15 34.5 L 12 30.5 L 12 28.5 L 9 22.5 L 8.5 18 L 7 18.5 L 8 16.5 L 1.5 1 Z " />
+  <path id="object-11-4" data-name="Region 4" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 1.5 2 L 5 7.5 L 9 21.5 L 8 21.5 L 8 18.5 L 5 14.5 L 5 11.5 Q 1.2 7.6 1.5 2 Z " />
+  <path id="object-11-5" data-name="Region 5" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 15.5 5 L 19 11.5 L 19 15.5 L 22 20.5 L 26.5 35 L 30.5 27 L 31 28.5 L 27.5 36 Q 23.8 37.3 25 33.5 L 15.5 5 Z " />
+  <path id="object-11-6" data-name="Region 6" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 9.5 23 L 13 29.5 L 11 28.5 L 9.5 23 Z " />
+  <path id="object-11-7" data-name="Region 7" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 12.5 31 L 15 36.5 L 14 36.5 L 12.5 31 Z " />
+  <path id="object-11-8" data-name="Region 8" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 40.5 32 L 40 33.5 L 37.5 40 L 37 37.5 L 40.5 32 Z " />
+  <path id="object-11-9" data-name="Region 9" fill="rgb(234,26,36)" stroke="rgb(234,26,36)" stroke-width="1" d="M 27.5 33 L 26.5 35 L 27.5 33 Z " />
+  <path id="object-11-10" data-name="Region 10" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 15.5 38 L 19 44.5 L 17 45 L 15.5 38 Z " />
+  <path id="object-11-11" data-name="Region 11" fill="rgb(216,12,19)" stroke="rgb(216,12,19)" stroke-width="1" d="M 36.5 41 L 37 42.5 L 32.5 52 L 20.5 52 L 19 50.5 L 19.5 49 L 22.5 51 L 24.5 51 Q 31.2 52.8 33 49.5 Q 33.3 43.8 36.5 41 Z " />
+</g>
+<g id="object-12" data-name="Object 12" transform="translate(592 363)">
+  <path id="object-12-1" data-name="Region 1" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 19.5 0 Q 21.8 -0.8 21 1.5 L 18.5 2 L 9 2 L 9 9.5 L 8 9.5 L 8 1 L 18.5 1 L 19.5 0 Z " />
+  <path id="object-12-2" data-name="Region 2" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 19.5 1 Q 22.5 2.5 21 8.5 L 21 10.5 L 21.5 12 L 35 12 L 35 22 L 21.5 22 L 20 23.5 L 20 35.5 L 21 36.5 L 20 39.5 L 21 42.5 Q 20.1 49.3 22 52 L 26.5 54 L 28.5 54 L 33.5 52 L 36 57.5 L 33.5 63 L 29.5 64 L 27.5 64 Q 16 65 12 58.5 L 10 54.5 L 10 39.5 L 9 38.5 L 10 37.5 L 10 25.5 L 9 22 L 2 22 L 2 12 L 7.5 12 L 8 10.5 L 9 9.5 L 9 2 L 18.5 2 L 19.5 1 Z " />
+  <path id="object-12-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 1.5 11 L 8 11.5 L 2 12 L 2 22 L 8.5 22 L 8.5 23 L 1 23 L 1 13.5 Q -1.3 12.3 1.5 11 Z " />
+  <path id="object-12-4" data-name="Region 4" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 21.5 11 L 36 11 L 36 23 L 21 23 L 21 35.5 L 20 35.5 L 20 23.5 L 21.5 22 L 35 22 L 35 12 L 21.5 12 L 21.5 11 Z " />
+  <path id="object-12-5" data-name="Region 5" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 9.5 25 L 10 37.5 L 9 37.5 L 9.5 25 Z " />
+  <path id="object-12-6" data-name="Region 6" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 20.5 37 L 21 39.5 L 20 39.5 L 20.5 37 Z " />
+  <path id="object-12-7" data-name="Region 7" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 9.5 39 L 10 54.5 L 14.5 61 L 20 63.5 L 17.5 64 L 10 57.5 L 9 54.5 L 9.5 39 Z " />
+  <path id="object-12-8" data-name="Region 8" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 21.5 48 L 24.5 52 L 27 53.5 L 25.5 53 L 22 52 L 21.5 48 Z " />
+  <path id="object-12-9" data-name="Region 9" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 35.5 58 L 36 63 L 34 62.5 L 35.5 58 Z " />
+  <path id="object-12-10" data-name="Region 10" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 24.5 64 L 27 64.5 L 24.5 65 L 24.5 64 Z " />
+</g>
+<g id="object-13" data-name="Object 13" transform="translate(693 373)">
+  <path id="object-13-1" data-name="Region 1" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 23.5 0 Q 28.8 -1.3 30 1.5 L 30 12.5 L 28.5 14 L 22 13.5 L 29 13 L 29 1 L 23.5 1 L 15 6.5 L 13.5 9 Q 10.5 7.4 12 2 L 1.5 2 L 1 2.5 L 1 52 L 12 52 L 12 24.5 L 13 24.5 L 13 51.5 L 11.5 53 L 0.5 53 L 0 52.5 L 0 1 L 11.5 1 L 13 2.5 L 13.5 8 L 17.5 3 L 23.5 0 Z " />
+  <path id="object-13-2" data-name="Region 2" fill="rgb(22,162,226)" stroke="rgb(22,162,226)" stroke-width="1" d="M 23.5 1 L 29 1 L 29 13 Q 18.2 12 14 18.5 L 12 24.5 L 12 52 L 1.5 52 L 1 51.5 L 1 2 L 12 2 L 12 7.5 Q 13.5 10.5 15 7.5 L 17.5 4 L 23.5 1 Z " />
+  <path id="object-13-3" data-name="Region 3" fill="rgb(21,133,184)" stroke="rgb(21,133,184)" stroke-width="1" d="M 19.5 14 L 21 14.5 L 15 18.5 L 13.5 22 L 13 20.5 L 17.5 15 L 19.5 14 Z " />
+</g>
+</svg>
