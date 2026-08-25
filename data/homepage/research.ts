@@ -14,7 +14,7 @@ export const research = {
   },
 
   image: {
-    src: "/images/home/research.jpg",
+    src: "/images/home/research.webp",
     alt: "FavDoctor Research",
   },
 } as const;

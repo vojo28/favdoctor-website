@@ -8,8 +8,8 @@ import { FooterSocial } from "./footer-social";
 export function Footer() {
   return (
     <footer className="border-t border-border">
-      <Container className="py-20 lg:py-24">
-        <div className="grid gap-16 lg:grid-cols-12">
+      <Container className="py-14 lg:py-16">
+        <div className="grid gap-10 lg:grid-cols-12 lg:gap-12">
           <div className="lg:col-span-6">
             <FooterBrand />
           </div>
@@ -23,7 +23,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-10 lg:mt-12">
           <FooterBottom />
         </div>
       </Container>

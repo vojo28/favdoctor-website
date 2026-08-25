@@ -23,7 +23,7 @@ export const hero = {
     ],
 
     image: {
-      src: "/images/home/hero.png",
+      src: "/images/home/hero.webp",
       alt: "FavDoctor",
     },
   } as const;

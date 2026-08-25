@@ -1,5 +1,4 @@
 export const insights = {
-  
   title: "Sharing ideas that shape better healthcare.",
 
   description:
@@ -15,19 +14,22 @@ export const insights = {
       title: "Improving Maternal Health Outcomes Through Digital Support",
       category: "Research",
       date: "May 12, 2026",
-      image: "/images/blog/maternal.jpg",
+      image: "/images/blog/maternal.webp",
+      href: "/insights/improving-maternal-health-outcomes-through-digital-support",
     },
     {
       title: "The Role of Data in Strengthening Health Systems",
       category: "Insights",
       date: "April 24, 2026",
-      image: "/images/blog/data.jpg",
+      image: "/images/blog/data.webp",
+      href: "/insights/the-role-of-data-in-strengthening-health-systems",
     },
     {
       title: "FavDoctor CareLine Expands to More Communities",
       category: "Updates",
       date: "April 10, 2026",
-      image: "/images/blog/careline.jpg",
+      image: "/images/blog/careline.webp",
+      href: "/insights/favdoctor-careline-expands-to-more-communities",
     },
   ],
 } as const;

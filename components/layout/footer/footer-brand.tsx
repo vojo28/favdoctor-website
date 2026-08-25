@@ -6,11 +6,15 @@ import { Logo } from "@/components/layout/logo";
 export function FooterBrand() {
   return (
     <div className="max-w-md">
-      <Link href="/" aria-label="FavDoctor">
-        <Logo />
+      <Link
+        href="/"
+        aria-label="FavDoctor Home"
+        className="inline-block"
+      >
+        <Logo className="h-auto w-[140px]" />
       </Link>
 
-      <p className="mt-6 text-base leading-7 text-muted-foreground">
+      <p className="mt-3 text-base leading-7 text-muted-foreground">
         {footer.description}
       </p>
     </div>

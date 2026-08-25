@@ -16,7 +16,7 @@ export const people = {
     "Because of you, we're building solutions that matter.",
 
   image: {
-    src: "/images/home/people.jpg",
+    src: "/images/home/people.webp",
     alt: "Healthcare worker with child",
   },
 }as const;

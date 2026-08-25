@@ -19,7 +19,7 @@ export const partnerCTA = {
   },
 
   image: {
-    src: "/images/home/partnership.jpg",
+    src: "/images/home/partnership.webp",
     alt: "Healthcare partnership",
   },
 } as const;
