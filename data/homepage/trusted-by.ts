@@ -7,19 +7,16 @@ export const trustedBy = {
 
   logos: [
     {
-      name: "UNICEF",
-      image: "/images/partners/unicef.svg",
-      href: "#",
+      name: "NIGERIA INSTITUTE FOR MEDICAL RESEARCH",
+      image: "/images/partners/nimr2.png",
+      href: "https://nimr.gov.ng/",
     },
+    
     {
-      name: "NACA",
-      image: "/images/partners/naca.svg",
-      href: "#",
+      name: "INNOVATIVE TOOLS TO EXPAND HIV SELF TESTING",
+      image: "/images/partners/ITEST.png",
+      href: "https://4yby.org/",
     },
-    {
-      name: "NIMR",
-      image: "/images/partners/nimr.svg",
-      href: "#",
-    },
+    
   ],
 } as const;
