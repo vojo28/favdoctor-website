@@ -23,7 +23,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 lg:mt-12">
+        <div className="mt-12">
           <FooterBottom />
         </div>
       </Container>

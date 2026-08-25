@@ -12,12 +12,12 @@ export function FooterNavigation() {
         Explore
       </h3>
 
-      <ul className="mt-6 space-y-4">
+      <ul className="mt-4 space-y-3">
         {footer.navigation.map((item) => (
           <li key={item.label}>
             <Link
               href={item.href}
-              className="text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
             >
               {item.label}
             </Link>

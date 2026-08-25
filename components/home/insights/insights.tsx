@@ -7,7 +7,7 @@ export function Insights() {
   return (
     <section className="py-24 lg:py-32">
       <Container>
-        <div className="grid gap-8 xl:grid-cols-2 items-stretch">
+        <div className="space-y-8">
           <ResearchCard />
           <StoriesCard />
         </div>
