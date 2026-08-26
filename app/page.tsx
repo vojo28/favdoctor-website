@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: "Building Solutions That Improve Healthcare",
 
   description:
-    "FavDoctor builds solutions that improve healthcare, helping people live longer, healthier, and better lives through technology, research, and strategic partnerships.",
+    "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
 
   alternates: {
     canonical: "/",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "FavDoctor | Building Solutions That Improve Healthcare",
 
     description:
-      "Helping people live longer, healthier, and better lives through technology, research, and strategic partnerships.",
+      "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
 
     url: "/",
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "FavDoctor | Building Solutions That Improve Healthcare",
 
     description:
-      "Helping people live longer, healthier, and better lives through technology, research, and strategic partnerships.",
+      "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
   },
 };
 
@@ -41,7 +41,7 @@ export default function HomePage() {
   return (
     <>
      <StructuredData />
-     
+
       <Hero />
       <TrustedBy />
       <WhatWeBuild />

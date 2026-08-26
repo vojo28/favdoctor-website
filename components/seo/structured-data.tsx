@@ -6,7 +6,7 @@ export function StructuredData() {
     "@type": "Organization",
     name: siteConfig.name,
     url: siteConfig.url,
-    logo: `${siteConfig.url}/images/logo/favdoctor-logo.svg`,
+logo: `${siteConfig.url}/images/logo/favdoctor-logo.png`,
     description: siteConfig.description,
   };
 
