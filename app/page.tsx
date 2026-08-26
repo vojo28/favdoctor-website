@@ -21,12 +21,11 @@ export const metadata: Metadata = {
   },
 
  openGraph: {
-    title: siteConfig.name,
+    title: "FavDoctor | Building Solutions That Make Healthcare Work Better",
     description: siteConfig.description,
     url: siteConfig.url,
     siteName: siteConfig.name,
     type: "website",
-
     images: [
       {
         url: siteConfig.ogImage,
