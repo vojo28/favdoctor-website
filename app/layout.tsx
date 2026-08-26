@@ -18,22 +18,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Building Solutions That Make Healthcare Work Better",
+  metadataBase: new URL(siteConfig.url),
 
-  description:
-    "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
-
-  alternates: {
-    canonical: "/",
+  title: {
+    default: siteConfig.name,
+    template: `%s | ${siteConfig.name}`,
   },
 
+  description: siteConfig.description,
+
   openGraph: {
-    title: "FavDoctor | Building Solutions That Make Healthcare Work Better",
-
-    description:
-      "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
-
-    url: "/",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    siteName: siteConfig.name,
 
     images: [
       {
@@ -43,16 +41,15 @@ export const metadata: Metadata = {
         alt: "FavDoctor — Building Solutions That Make Healthcare Work Better",
       },
     ],
+
+    locale: "en_US",
+    type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
-
-    title: "FavDoctor | Building Solutions That Make Healthcare Work Better",
-
-    description:
-      "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
-
+    title: siteConfig.name,
+    description: siteConfig.description,
     images: [siteConfig.ogImage],
   },
 };
@@ -70,8 +67,8 @@ export default function RootLayout({
         <Header />
 
         <main className="pt-20">
-  {children}
-</main>
+          {children}
+        </main>
 
         <Footer />
       </body>

@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "FavDoctor",
 
   description:
-    "",
+    "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
 
   url: "https://fav.doctor",
 
