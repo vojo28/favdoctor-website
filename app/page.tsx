@@ -20,12 +20,12 @@ export const metadata: Metadata = {
     canonical: "/",
   },
 
-  openGraph: {
-    title: "FavDoctor | Building Solutions That Make Healthcare Work Better",
-
+ openGraph: {
+    title: siteConfig.name,
     description: siteConfig.description,
-
-    url: "/",
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    type: "website",
 
     images: [
       {
@@ -35,6 +35,10 @@ export const metadata: Metadata = {
         alt: "FavDoctor — Building Solutions That Make Healthcare Work Better",
       },
     ],
+  },
+
+  other: {
+    "fb:app_id": "5770324929684729",
   },
 
   twitter: {
