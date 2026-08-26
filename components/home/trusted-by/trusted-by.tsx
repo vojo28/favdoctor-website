@@ -5,7 +5,7 @@ import { TrustedLogo } from "./trusted-logo";
 export function TrustedBy() {
 
   return (
-    <section className="border-y bg-muted/30 py-20 lg:py-24">
+    <section className="border-y bg-muted/30 py-16 lg:py-20">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
          

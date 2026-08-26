@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 import { whatWeBuild } from "@/data/homepage";
-import { Button } from "@/components/ui/button";
 import { Container } from "@/components/layout/container";
 import { SectionHeading } from "@/components/ui/section-heading";
 
@@ -11,8 +10,7 @@ export function WhatWeBuild() {
   
 
   return (
-    <section className="py-24 lg:py-32">
-      <Container>
+<section className="pt-20 pb-12 lg:pt-24 lg:pb-16">      <Container>
         <SectionHeading
           eyebrow={whatWeBuild.eyebrow}
           title={whatWeBuild.title}
@@ -30,13 +28,6 @@ export function WhatWeBuild() {
           ))}
         </div>
 
-        <div className="mt-16 flex justify-center">
-          <Button asChild size="xl">
-            <Link href={whatWeBuild.cta.href}>
-              {whatWeBuild.cta.label}
-            </Link>
-          </Button>
-        </div>
       </Container>
     </section>
   );

@@ -4,7 +4,7 @@ import { people } from "@/data/homepage";
 import { Container } from "@/components/layout/container";
 export function People() {
   return (
-    <section className="py-24 lg:py-32">
+    <section className="pt-12 pb-20 lg:pt-16 lg:pb-24">
       <Container>
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div>

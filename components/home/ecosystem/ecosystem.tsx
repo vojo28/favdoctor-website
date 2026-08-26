@@ -11,7 +11,9 @@ export function Ecosystem() {
  
 
   return (
-    <section className="py-24 lg:py-32">
+    <section 
+      id="ecosystem"
+    className="pt-12 pb-20 lg:pt-16 lg:pb-16">
       <Container>
         <SectionHeading
           eyebrow={ecosystem.eyebrow}

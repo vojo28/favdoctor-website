@@ -1,19 +1,19 @@
 export const hero = {
      badge: "",
 
-    title: "Building solutions that improve healthcare.",
+    title: "Building Solutions That Make Healthcare Work Better.",
 
     description:
-      "Helping people live longer, healthier, and better lives through technology, research, and strategic partnerships.",
+      "FavDoctor builds healthcare technology and implementation solutions to address real healthcare challenges across Nigeria.",
 
     primaryAction: {
       label: "Explore Our Ecosystem",
-      href: "/ecosystem",
+      href: "#ecosystem",
     },
 
     secondaryAction: {
       label: "Partner With Us",
-      href: "/partnerships",
+      href: "#partnerships",
     },
 
     trust: [

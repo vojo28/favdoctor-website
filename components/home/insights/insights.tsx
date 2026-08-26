@@ -5,7 +5,7 @@ import { StoriesCard } from "./stories-card";
 
 export function Insights() {
   return (
-    <section className="py-24 lg:py-32">
+    <section className="pt-12 pb-20 lg:pt-16 lg:pb-24">
       <Container>
         <div className="space-y-8">
           <ResearchCard />

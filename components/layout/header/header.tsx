@@ -6,9 +6,10 @@ import { Button } from "@/components/ui/button";
 import { DesktopNavigation } from "./desktop-navigation";
 import { Logo } from "./logo";
 import { MobileNavigation } from "./mobile-navigation";
+
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/80 backdrop-blur">
+    <header className="relative z-[60] border-b border-border bg-background">
       <Container className="flex h-20 items-center justify-between">
         <Logo />
 

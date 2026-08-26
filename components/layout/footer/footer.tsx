@@ -10,15 +10,14 @@ export function Footer() {
     <footer className="border-t border-border">
       <Container className="py-14 lg:py-16">
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-12">
-          <div className="lg:col-span-6">
+          {/* Brand */}
+          <div className="flex justify-center lg:col-span-6 lg:justify-start">
             <FooterBrand />
           </div>
 
-          <div className="lg:col-span-3">
+          {/* Navigation + Social */}
+          <div className="grid grid-cols-2 gap-8 lg:col-span-6">
             <FooterNavigation />
-          </div>
-
-          <div className="lg:col-span-3">
             <FooterSocial />
           </div>
         </div>

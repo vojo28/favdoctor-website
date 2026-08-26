@@ -7,7 +7,7 @@ import { ImpactCard } from "./impact-card";
 export function ImpactAreas() {
 
   return (
-    <section className="py-24 lg:py-32">
+    <section className="pt-12 pb-20 lg:pt-16 lg:pb-24">
       <Container>
         <SectionHeading
           eyebrow={impactAreas.eyebrow}

@@ -7,7 +7,9 @@ import { Container } from "@/components/layout/container";
 
 export function PartnerCTA() {
   return (
-    <section className="relative isolate overflow-hidden bg-primary text-primary-foreground">
+    <section 
+    id="partnerships"
+    className="relative isolate overflow-hidden bg-primary text-primary-foreground">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10">
         <Image

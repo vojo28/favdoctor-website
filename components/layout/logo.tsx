@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 interface LogoProps {
   className?: string;
@@ -6,13 +7,18 @@ interface LogoProps {
 
 export function Logo({ className }: LogoProps) {
   return (
-    <Image
-      src="/images/logo/favdoctor-logo.svg"
-      alt="FavDoctor"
-      width={180}
-      height={42}
-      priority
+    <Link
+      href="/"
+      aria-label="FavDoctor Home"
       className={className}
-    />
+    >
+      <Image
+        src="/images/logo/favdoctor-logo.svg"
+        alt="FavDoctor"
+        width={180}
+        height={42}
+        priority
+      />
+    </Link>
   );
 }
