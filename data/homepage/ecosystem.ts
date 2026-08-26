@@ -1,5 +1,4 @@
 export const ecosystem = {
-
   eyebrow: "OUR ECOSYSTEM",
 
   title: "One institution. Multiple healthcare solutions.",
@@ -18,6 +17,7 @@ export const ecosystem = {
       subtitle: "Healthcare Engagement Infrastructure",
       description:
         "Helping healthcare organizations communicate, support, and stay connected with the people they serve through healthcare hotlines, multilingual engagement, WhatsApp, AI-assisted communication, patient follow-up, care coordination, and dedicated healthcare support.",
+      href: "/ecosystem/careline",
     },
 
     {
@@ -25,6 +25,7 @@ export const ecosystem = {
       subtitle: "",
       description:
         "A comprehensive maternal and child health platform supporting women throughout pregnancy, childbirth, postpartum care, and early childhood.",
+      href: "/ecosystem/mamas-call",
     },
 
     {
@@ -32,6 +33,7 @@ export const ecosystem = {
       subtitle: "",
       description:
         "Helping individuals and healthcare organizations prevent hypertension and cardiovascular disease through monitoring, follow-up, and health intelligence.",
+      href: "/ecosystem/bp-insights",
     },
 
     {
@@ -39,6 +41,7 @@ export const ecosystem = {
       subtitle: "",
       description:
         "Improving medicine access and strengthening continuity of care by connecting people with trusted pharmacy services.",
+      href: "/ecosystem/favpharma",
     },
 
     {
@@ -46,6 +49,7 @@ export const ecosystem = {
       subtitle: "",
       description:
         "Building trust in healthcare through provider verification, quality standards, trusted healthcare information, and transparency.",
+      href: "/ecosystem/health-trust",
     },
 
     {
@@ -53,6 +57,7 @@ export const ecosystem = {
       subtitle: "",
       description:
         "Generating evidence that strengthens healthcare programmes, informs policy, and transforms research into practical healthcare solutions.",
+      href: "/research",
     },
   ],
 } as const;

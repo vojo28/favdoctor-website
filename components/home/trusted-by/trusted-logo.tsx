@@ -18,7 +18,13 @@ export function TrustedLogo({
       alt={name}
       width={140}
       height={50}
-      className="h-10 w-auto object-contain grayscale opacity-60 transition-all duration-300 hover:grayscale-0 hover:opacity-100"
+      className="
+        h-10 w-auto object-contain
+        opacity-100 grayscale-0
+        transition-all duration-300
+        md:grayscale md:opacity-60
+        md:group-hover:grayscale-0 md:group-hover:opacity-100
+      "
     />
   );
 
@@ -31,6 +37,7 @@ export function TrustedLogo({
       href={href}
       target="_blank"
       rel="noopener noreferrer"
+      className="group inline-flex"
     >
       {logo}
     </Link>

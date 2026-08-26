@@ -21,16 +21,17 @@ export function Ecosystem() {
           description={ecosystem.description}
         />
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
-          {ecosystem.items.map((item) => (
-            <EcosystemCard
-              key={item.title}
-              title={item.title}
-              subtitle={item.subtitle}
-              description={item.description}
-            />
-          ))}
-        </div>
+       <div className="mt-16 grid gap-8 md:grid-cols-2 xl:grid-cols-3">
+  {ecosystem.items.map((item) => (
+    <EcosystemCard
+      key={item.title}
+      title={item.title}
+      subtitle={item.subtitle}
+      description={item.description}
+      href={item.href}
+    />
+  ))}
+</div>
 
         <div className="mt-16 flex justify-center">
           <Button asChild size="xl">
