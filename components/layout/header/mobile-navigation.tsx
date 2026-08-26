@@ -12,12 +12,10 @@ export function MobileNavigation() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
-  // Close menu when the page changes
   useEffect(() => {
     setIsOpen(false);
   }, [pathname]);
 
-  // Close menu when the user scrolls
   useEffect(() => {
     const handleScroll = () => {
       if (isOpen) {
@@ -34,7 +32,6 @@ export function MobileNavigation() {
     };
   }, [isOpen]);
 
-  // Close menu with Escape key
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
@@ -49,13 +46,8 @@ export function MobileNavigation() {
     };
   }, []);
 
-  // Prevent page scrolling while menu is open
   useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
+    document.body.style.overflow = isOpen ? "hidden" : "";
 
     return () => {
       document.body.style.overflow = "";
@@ -63,7 +55,7 @@ export function MobileNavigation() {
   }, [isOpen]);
 
   return (
-    <div className="lg:hidden">
+    <div className="static lg:hidden">
       <Button
         variant="ghost"
         size="icon"
@@ -71,7 +63,6 @@ export function MobileNavigation() {
         aria-label={isOpen ? "Close navigation" : "Open navigation"}
         aria-expanded={isOpen}
         aria-controls="mobile-navigation"
-        className="relative z-[60]"
       >
         {isOpen ? (
           <X className="size-6" />
@@ -83,7 +74,7 @@ export function MobileNavigation() {
       {isOpen && (
         <div
           id="mobile-navigation"
-          className="fixed inset-x-0 top-20 bottom-0 z-50 overflow-y-auto bg-background"
+         className="absolute left-0 right-0 top-full z-[70] h-[calc(100dvh-5rem)] overflow-y-auto bg-background"
         >
           <nav className="mx-auto flex min-h-full w-full max-w-lg flex-col px-6 py-8">
             <div className="flex flex-col">

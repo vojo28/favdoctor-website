@@ -50,8 +50,8 @@
    --color-brand-success: var(--brand-success);
    --color-brand-warning: var(--brand-warning);
 
-  --font-sans: var(--font-sans);
-  --font-heading: var(--font-sans);
+   --font-sans: var(--font-geist-sans);
+  --font-heading: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
   --radius-sm: calc(var(--radius) * .6);

@@ -15,7 +15,7 @@ export function HeroImage() {
           width={760}
           height={760}
           priority
-          quality={95}
+          quality={85}
           className="h-auto w-full object-contain"
         />
       </div>
