@@ -18,12 +18,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
+
   title: {
     default: siteConfig.name,
     template: `%s | ${siteConfig.name}`,
   },
+
   description: siteConfig.description,
-  metadataBase: new URL(siteConfig.url),
 
   openGraph: {
     title: siteConfig.name,
@@ -35,6 +37,7 @@ export const metadata: Metadata = {
         url: siteConfig.ogImage,
         width: 1200,
         height: 630,
+        alt: "FavDoctor — Building solutions that improve healthcare.",
       },
     ],
     locale: "en_US",
@@ -45,7 +48,17 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [siteConfig.ogImage],
+    images: [
+      {
+        url: siteConfig.ogImage,
+        alt: "FavDoctor — Building solutions that improve healthcare.",
+      },
+    ],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
@@ -61,9 +74,7 @@ export default function RootLayout({
       >
         <Header />
 
-        <main className="pt-20">
-          {children}
-        </main>
+        <main>{children}</main>
 
         <Footer />
       </body>
