@@ -61,6 +61,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+    <meta
+      property="fb:app_id"
+      content="5770324929684729"
+    />
+  </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

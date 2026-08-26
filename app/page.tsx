@@ -37,9 +37,6 @@ export const metadata: Metadata = {
     ],
   },
 
-  other: {
-    "fb:app_id": "5770324929684729",
-  },
 
   twitter: {
     card: "summary_large_image",
