@@ -5,7 +5,7 @@ export const mamascall = {
     title: "When Mama Calls, Nigeria Answers.",
 
     description:
-      "Mama's Call helps pregnant women and new mothers access timely health information, guidance, support, and the right next step when they need it.",
+      "Mama's Call is Nigeria's First Maternal Health CareLine, helping pregnant women and new mothers access timely health information, guidance, support, and the right next step when they need it.",
 
     primaryCta: {
       label: "Partner With Us",

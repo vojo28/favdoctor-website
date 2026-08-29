@@ -63,20 +63,29 @@ export function MamaCallHero() {
             </div>
           </div>
 
-          {/* Hero visual */}
-          <div className="relative">
-            <div className="absolute inset-0 -z-10 bg-primary/5 blur-3xl" />
+        {/* Hero visual */}
+<div className="relative -mr-8 h-[460px] sm:h-[520px] lg:-mr-20 lg:h-[650px]">
+  <div
+    aria-hidden
+    className="absolute inset-0 -z-10 bg-primary/5 blur-3xl"
+  />
 
-            <Image
-              src={hero.image.src}
-              alt={hero.image.alt}
-              width={900}
-              height={900}
-              priority
-              quality={75}
-              className="h-auto w-full object-contain"
-            />
-          </div>
+  <Image
+    src={hero.image.src}
+    alt={hero.image.alt}
+    fill
+    priority
+    quality={85}
+    sizes="(max-width: 1024px) 100vw, 55vw"
+    className="object-cover object-[72%_center]"
+    style={{
+      maskImage:
+        "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.35) 12%, black 30%, black 100%)",
+      WebkitMaskImage:
+        "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.35) 12%, black 30%, black 100%)",
+    }}
+  />
+</div>
         </div>
       </Container>
     </section>
