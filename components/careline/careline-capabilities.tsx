@@ -27,7 +27,7 @@ export function CareLineCapabilities() {
       id="capabilities"
       className="bg-brand-surface"
     >
-      <Container className="py-20 lg:py-32">
+      <Container className="pt-12 pb-20 lg:pt-16 lg:pb-24">
         <div className="max-w-3xl">
           <p className="text-sm font-semibold tracking-wider text-primary">
             {capabilities.eyebrow}

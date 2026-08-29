@@ -25,7 +25,7 @@ export const ecosystem = {
       subtitle: "",
       description:
         "A comprehensive maternal and child health platform supporting women throughout pregnancy, childbirth, postpartum care, and early childhood.",
-      href: "/ecosystem/mamas-call",
+      href: "/ecosystem/mamascall",
     },
 
     {
@@ -33,7 +33,7 @@ export const ecosystem = {
       subtitle: "",
       description:
         "Helping individuals and healthcare organizations prevent hypertension and cardiovascular disease through monitoring, follow-up, and health intelligence.",
-      href: "/ecosystem/bp-insights",
+      href: "/ecosystem/bpinsights",
     },
 
     {

@@ -4,7 +4,12 @@ export const careline = {
     title: "Healthcare engagement that keeps people connected.",
     description:
       "Helping organizations communicate, engage, support, and stay connected with the people they serve.",
-    primaryCta: {
+    
+    image: {
+    src: "/images/careline/hero.webp",
+    alt: "FavDoctor CareLine healthcare communication and engagement",
+  },
+      primaryCta: {
       label: "Partner With Us",
       href: "/contact",
     },

@@ -12,7 +12,7 @@ export function CareLineAudience() {
 
   return (
     <section className="bg-brand-surface">
-      <Container className="py-20 lg:py-32">
+      <Container className="pt-12 pb-20 lg:pt-16 lg:pb-24">
         <div className="mx-auto max-w-3xl text-center">
           <p className="text-sm font-semibold tracking-wider text-primary">
             {audience.eyebrow}

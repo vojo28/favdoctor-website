@@ -14,7 +14,7 @@ export function CareLineWhy() {
 
   return (
     <section className="overflow-hidden bg-background">
-      <Container className="py-20 lg:py-32">
+      <Container className="pt-12 pb-20 lg:pt-16 lg:pb-24">
         <div className="grid gap-16 lg:grid-cols-[1fr_0.9fr] lg:items-center lg:gap-24">
           {/* Content */}
           <div className="max-w-2xl">

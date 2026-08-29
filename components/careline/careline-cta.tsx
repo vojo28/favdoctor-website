@@ -10,7 +10,7 @@ export function CareLineCTA() {
 
   return (
     <section className="relative overflow-hidden bg-brand-surface">
-      <Container className="relative py-20 lg:py-32">
+      <Container className="relative pt-12 pb-20 lg:pt-16 lg:pb-24">
         <div className="relative overflow-hidden rounded-[2rem] bg-brand-heading px-6 py-16 text-center sm:px-12 lg:px-20 lg:py-24">
           {/* Background accents */}
           <div

@@ -15,7 +15,7 @@ export function CareLineChallenge() {
 
   return (
     <section className="border-b border-border bg-background">
-      <Container className="py-20 lg:py-32">
+      <Container className="pt-12 pb-20 lg:pt-16 lg:pb-24">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-20">
           {/* Content */}
           <div>
