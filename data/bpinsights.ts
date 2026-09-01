@@ -266,7 +266,7 @@ export const bpinsights = {
   healthcareTeams: {
     eyebrow: "FOR HEALTHCARE TEAMS",
 
-    title: "See beyond the single consultation.",
+    title: "See beyond a single consultation.",
 
     description:
       "BP Insights gives healthcare professionals a more continuous view of the people they care for—bringing relevant information together so that changes can be recognized and follow-up can become more informed.",

@@ -11,7 +11,7 @@ export function BPInsightsPartnership() {
   return (
     <>
       {/* Partnership */}
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden bg-background">
         <Container className="relative py-20 lg:py-28">
           <div className="grid gap-10 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-20">
             <div className="max-w-4xl">
@@ -28,9 +28,12 @@ export function BPInsightsPartnership() {
               </p>
             </div>
 
-            {/* Simple directional visual */}
-            <div className="hidden size-20 items-center justify-center rounded-full border border-border bg-brand-surface text-primary lg:flex">
-              <ArrowUpRight className="size-8" />
+            {/* Directional visual */}
+            <div className="hidden size-24 items-center justify-center rounded-full border border-primary/10 bg-primary/5 text-primary lg:flex">
+              <ArrowUpRight
+                className="size-10"
+                strokeWidth={1.5}
+              />
             </div>
           </div>
 
@@ -47,7 +50,7 @@ export function BPInsightsPartnership() {
               asChild
               size="lg"
               variant="outline"
-              className="group"
+              className="group border-border bg-transparent"
             >
               <Link
                 href={partnership.secondaryCta.href}
@@ -55,6 +58,7 @@ export function BPInsightsPartnership() {
                 rel="noopener noreferrer"
               >
                 {partnership.secondaryCta.label}
+
                 <ArrowUpRight className="ml-2 size-4 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
               </Link>
             </Button>
@@ -63,7 +67,7 @@ export function BPInsightsPartnership() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative overflow-hidden bg-primary text-primary-foreground">
+      <section className="relative overflow-hidden bg-primary text-white">
         {/* Background atmosphere */}
         <div
           aria-hidden
@@ -75,28 +79,28 @@ export function BPInsightsPartnership() {
           className="absolute -bottom-48 right-0 size-[32rem] rounded-full bg-white/10 blur-[140px]"
         />
 
-        <Container className="relative py-20 lg:py-28">
+        <Container className="relative py-24 lg:py-32">
           <div className="grid gap-12 lg:grid-cols-[1fr_auto] lg:items-end lg:gap-20">
             <div className="max-w-4xl">
-              <p className="text-sm font-semibold tracking-wider text-primary-foreground/70">
+              <p className="text-sm font-semibold tracking-wider text-white/70">
                 BP INSIGHTS
               </p>
 
-              <h2 className="mt-5 text-balance text-4xl font-bold tracking-tight lg:text-6xl">
+              <h2 className="mt-5 text-balance text-4xl font-bold tracking-tight text-white lg:text-6xl">
                 {finalCta.title}
               </h2>
 
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-primary-foreground/75">
+              <p className="mt-6 max-w-3xl text-lg leading-8 text-white/75">
                 {finalCta.description}
               </p>
             </div>
 
             {/* CTA */}
-            <div>
+            <div className="lg:pb-1">
               <Button
                 asChild
                 size="lg"
-                className="bg-white text-primary shadow-sm hover:bg-white/90"
+                className="group bg-white text-primary shadow-lg shadow-black/10 hover:bg-white/90"
               >
                 <Link
                   href={finalCta.href}
@@ -104,15 +108,16 @@ export function BPInsightsPartnership() {
                   rel="noopener noreferrer"
                 >
                   {finalCta.label}
-                  <ArrowUpRight className="ml-2 size-5" />
+
+                  <ArrowUpRight className="ml-2 size-5 transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
                 </Link>
               </Button>
             </div>
           </div>
 
           {/* Bottom line */}
-          <div className="mt-16 border-t border-white/15 pt-6 lg:mt-20">
-            <p className="text-sm text-primary-foreground/55">
+          <div className="mt-20 border-t border-white/15 pt-6">
+            <p className="text-sm font-medium tracking-wide text-white/60">
               BP Insights — Cardiovascular Health Intelligence
             </p>
           </div>

@@ -12,9 +12,9 @@ export function BPInsightsHero() {
   return (
     <section className="relative overflow-hidden">
       <Container className="relative pt-12 pb-20 lg:pt-16 lg:pb-24">
-        <div className="grid items-center gap-10 lg:grid-cols-[52%_48%] lg:gap-0">
+        <div className="grid items-center gap-10 lg:grid-cols-[48%_52%] lg:gap-0">
           {/* Content */}
-          <div className="relative z-10 max-w-2xl">
+          <div className="relative z-30 max-w-2xl">
             <p className="text-sm font-semibold tracking-wider text-primary">
               {hero.eyebrow}
             </p>
@@ -50,20 +50,33 @@ export function BPInsightsHero() {
           </div>
 
           {/* Hero visual */}
-          <div className="relative -mr-8 lg:-mr-20">
+          <div className="relative h-[420px] overflow-hidden lg:-mr-20 lg:h-[560px]">
+            {/* Ambient background glow */}
             <div
               aria-hidden
-              className="absolute inset-0 -z-10 rounded-full bg-primary/10 blur-3xl"
+              className="absolute inset-0 z-0 bg-primary/10 blur-3xl"
             />
 
+            {/* Image */}
             <Image
               src={hero.image.src}
               alt={hero.image.alt}
-              width={1000}
-              height={900}
+              fill
               priority
-              quality={85}
-              className="h-auto w-full object-contain"
+              quality={90}
+              className="object-cover object-center"
+            />
+
+            {/* Fade image into page from the left */}
+            <div
+              aria-hidden
+              className="absolute inset-y-0 left-0 z-10 w-[35%] bg-gradient-to-r from-background via-background/75 to-transparent"
+            />
+
+            {/* Subtle fade at bottom */}
+            <div
+              aria-hidden
+              className="absolute inset-x-0 bottom-0 z-10 h-24 bg-gradient-to-t from-background/30 to-transparent"
             />
           </div>
         </div>

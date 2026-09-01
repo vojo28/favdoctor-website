@@ -23,27 +23,16 @@ export default function BPInsightsPage() {
   return (
     <main>
       <BPInsightsHero />
-
       <BPInsightsBiggerPicture />
-
       <BPInsightsChallenge />
-
       <BPInsightsIntelligence />
-
       <BPInsightsCapabilities />
-
       <BPInsightsHowItWorks />
-
       <BPInsightsIndividuals />
-
       <BPInsightsHealthcareTeams />
-
       <BPInsightsTreatment />
-
       <BPInsightsLongitudinal />
-
       <BPInsightsVision />
-
       <BPInsightsPartnership />
     </main>
   );

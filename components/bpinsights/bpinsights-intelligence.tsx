@@ -88,37 +88,37 @@ export function BPInsightsIntelligence() {
           </div>
         </div>
 
-        {/* Intelligence transformation */}
-        <div className="mt-16 lg:mt-24">
-          <div className="relative overflow-hidden rounded-[2.5rem] bg-primary px-8 py-10 text-primary-foreground lg:px-14 lg:py-14">
-            <div
-              aria-hidden
-              className="absolute -right-32 -top-32 size-96 rounded-full bg-white/10 blur-3xl"
-            />
+       {/* Intelligence transformation */}
+<div className="mt-16 lg:mt-24">
+  <div className="relative overflow-hidden rounded-[2.5rem] bg-primary px-8 py-10 text-white lg:px-14 lg:py-14">
+    <div
+      aria-hidden
+      className="absolute -right-32 -top-32 size-96 rounded-full bg-white/10 blur-3xl"
+    />
 
-            <div
-              aria-hidden
-              className="absolute -bottom-40 -left-20 size-80 rounded-full bg-white/5 blur-3xl"
-            />
+    <div
+      aria-hidden
+      className="absolute -bottom-40 -left-20 size-80 rounded-full bg-white/5 blur-3xl"
+    />
 
-            <div className="relative grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-16">
-              <div className="max-w-4xl">
-                <p className="text-xs font-bold tracking-[0.2em] text-primary-foreground/70">
-                  THE TRANSFORMATION
-                </p>
+    <div className="relative grid gap-10 lg:grid-cols-[1fr_auto] lg:items-center lg:gap-16">
+      <div className="max-w-4xl">
+        <p className="text-xs font-bold tracking-[0.2em] text-white/75">
+          THE TRANSFORMATION
+        </p>
 
-                <p className="mt-5 text-balance text-2xl font-medium leading-relaxed lg:text-4xl">
-                  {intelligence.closing}
-                </p>
-              </div>
+        <p className="mt-5 text-balance text-2xl font-medium leading-relaxed text-white lg:text-4xl">
+          {intelligence.closing}
+        </p>
+      </div>
 
-              {/* Visual */}
-              <div className="hidden size-28 items-center justify-center rounded-full border border-white/20 bg-white/10 lg:flex">
-                <BrainCircuit className="size-12" />
-              </div>
-            </div>
-          </div>
-        </div>
+      {/* Visual */}
+      <div className="hidden size-28 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white lg:flex">
+        <BrainCircuit className="size-12 text-white" />
+      </div>
+    </div>
+  </div>
+</div>
       </Container>
     </section>
   );
