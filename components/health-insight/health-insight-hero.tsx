@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 
 import { Container } from "@/components/layout/container";
 import { Button } from "@/components/ui/button";
@@ -10,104 +10,105 @@ export function HealthInsightHero() {
   const { hero } = healthInsight;
 
   return (
-    <section className="relative overflow-hidden">
-      {/* Background atmosphere */}
+    <section className="relative overflow-hidden bg-background">
       <div
         aria-hidden
-        className="absolute -left-40 top-0 size-[32rem] rounded-full bg-primary/10 blur-[140px]"
+        className="pointer-events-none absolute -left-40 top-0 size-[32rem] rounded-full bg-primary/5 blur-3xl"
       />
 
       <div
         aria-hidden
-        className="absolute -right-40 top-20 size-[30rem] rounded-full bg-primary/5 blur-[140px]"
+        className="pointer-events-none absolute right-[-12rem] top-[-8rem] size-[34rem] rounded-full bg-primary/5 blur-3xl"
       />
 
-      <Container className="relative pt-12 pb-20 lg:pt-16 lg:pb-28">
-        <div className="grid items-center gap-12 lg:grid-cols-[52%_48%] lg:gap-0">
+      <Container className="relative">
+        <div className="grid min-h-[720px] items-center gap-12 py-20 lg:grid-cols-[0.95fr_1.05fr] lg:gap-6 lg:py-24">
           {/* Content */}
-          <div className="relative z-10 max-w-2xl">
-            <p className="text-sm font-semibold tracking-wider text-primary">
+          <div className="relative z-10 max-w-3xl">
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary/15 bg-primary/5 px-4 py-2 text-sm font-semibold text-primary">
+              <Sparkles className="size-4" />
               {hero.eyebrow}
-            </p>
+            </div>
 
-            <h1 className="mt-6 text-balance text-5xl font-bold leading-[0.95] tracking-tight text-brand-heading lg:text-7xl">
+            <h1 className="mt-7 text-balance text-5xl font-bold tracking-[-0.04em] text-brand-heading sm:text-6xl lg:text-7xl xl:text-[5.25rem] xl:leading-[1.02]">
               {hero.title}
             </h1>
 
-            <p className="mt-8 max-w-xl text-lg leading-8 text-muted-foreground lg:text-xl">
+            <p className="mt-7 max-w-2xl text-lg leading-8 text-muted-foreground sm:text-xl sm:leading-9">
               {hero.description}
             </p>
 
-            {/* CTAs */}
-            <div className="mt-10 flex flex-wrap items-center gap-4">
-              <Button asChild size="lg">
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+              <Button
+                asChild
+                size="lg"
+                className="h-13 rounded-full px-7 text-base"
+              >
                 <Link href={hero.primaryCta.href}>
                   {hero.primaryCta.label}
-                  <ArrowRight className="ml-2 size-5" />
+                  <ArrowRight className="ml-2 size-4" />
                 </Link>
               </Button>
 
-              <Button asChild variant="outline" size="lg">
+              <Button
+                asChild
+                size="lg"
+                variant="outline"
+                className="h-13 rounded-full border-border px-7 text-base"
+              >
                 <Link href={hero.secondaryCta.href}>
                   {hero.secondaryCta.label}
-                  <ArrowUpRight className="ml-2 size-4" />
                 </Link>
               </Button>
             </div>
 
-            {/* Supporting statement */}
-            <div className="mt-12 flex items-center gap-4">
-              <div className="h-px w-12 bg-primary/40" />
+            <div className="mt-12 flex max-w-xl items-start gap-4 border-l-2 border-primary/30 pl-5">
+              <div className="mt-1 size-2 shrink-0 rounded-full bg-primary" />
 
-              <p className="text-sm font-medium text-muted-foreground">
-                Reach people. Understand health. Create healthier futures.
+              <p className="text-sm leading-7 text-muted-foreground">
+                {hero.positioning}
               </p>
             </div>
           </div>
 
-          {/* Hero visual */}
-          <div className="relative lg:-mr-20">
-            {/* Main visual background */}
-            <div
-              aria-hidden
-              className="absolute inset-8 rounded-[3rem] bg-primary/10 blur-3xl"
-            />
+          {/* Visual */}
+<div className="relative min-h-[420px] lg:min-h-[600px]">
+  <div
+    aria-hidden
+    className="absolute right-0 top-1/2 size-[28rem] -translate-y-1/2 rounded-full bg-primary/10 blur-3xl"
+  />
 
-            {/* Image */}
-            <div className="relative overflow-hidden rounded-[2.5rem]">
-              <Image
-                src={hero.image.src}
-                alt={hero.image.alt}
-                width={1000}
-                height={1000}
-                priority
-                quality={90}
-                className="h-auto w-full object-cover"
-              />
+  <div className="absolute inset-y-0 right-[-8%] w-[115%] lg:right-[-10%] lg:w-[118%]">
+    <Image
+      src={hero.image.src}
+      alt={hero.image.alt}
+      fill
+      priority
+      sizes="(max-width: 1024px) 100vw, 65vw"
+      className="object-cover object-[72%_center]"
+    />
 
-              {/* Subtle bottom gradient */}
-              <div
-                aria-hidden
-                className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-brand-heading/20 to-transparent"
-              />
-            </div>
+    <div
+      aria-hidden
+      className="absolute inset-0 bg-gradient-to-r from-background via-background/25 to-transparent"
+    />
 
-            {/* Floating insight card */}
-            <div className="absolute -bottom-6 left-6 hidden rounded-2xl border border-border bg-background/95 p-5 shadow-xl backdrop-blur lg:block">
-              <p className="text-xs font-bold tracking-[0.18em] text-primary">
-                HEALTH INSIGHT
-              </p>
+    <div
+      aria-hidden
+      className="absolute inset-0 bg-gradient-to-t from-background/30 via-transparent to-background/10"
+    />
+  </div>
 
-              <p className="mt-2 text-sm font-medium leading-6 text-brand-heading">
-                Every gathering can become an opportunity for better health.
-              </p>
-            </div>
+  <div className="absolute bottom-6 left-4 z-10 hidden max-w-[250px] rounded-3xl border border-white/60 bg-white/85 p-5 shadow-xl shadow-black/5 backdrop-blur-md sm:block lg:bottom-14 lg:left-0">
+    <p className="text-[11px] font-bold tracking-[0.18em] text-primary">
+      THE HEALTH INSIGHT APPROACH
+    </p>
 
-            {/* Small connection point */}
-            <div className="absolute -right-4 top-1/4 hidden size-16 items-center justify-center rounded-full border border-primary/15 bg-background shadow-lg lg:flex">
-              <div className="size-5 rounded-full bg-primary/80" />
-            </div>
-          </div>
+    <p className="mt-3 text-lg font-semibold leading-7 text-brand-heading">
+      Bring health closer. Understand needs. Support action.
+    </p>
+  </div>
+</div>
         </div>
       </Container>
     </section>
