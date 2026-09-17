@@ -4,7 +4,7 @@ export const footer = {
 
   navigation: [
     { label: "About", href: "/about" },
-   
+      { label: "Awards", href: "/awards" },
     { label: "Partnerships", href: "/partnerships" },
       
     { label: "Careers", href: "/careers" },
@@ -16,6 +16,7 @@ export const footer = {
     { label: "Facebook", href: "#" },
     { label: "Instagram", href: "#" },
     { label: "X", href: "#" },
+    { label: "WhatsApp", href: "#" },
   ],
 
   legal: [

@@ -1,0 +1,41 @@
+import { ArrowRight } from "lucide-react";
+import Link from "next/link";
+
+import { Container } from "@/components/layout/container";
+import { careers } from "@/data/careers";
+
+export function CareersHero() {
+  const { hero } = careers;
+
+  return (
+    <section className="relative overflow-hidden bg-background">
+      <Container>
+        <div className="flex min-h-[600px] items-center py-20 lg:min-h-[650px] lg:py-24">
+          <div className="max-w-5xl">
+            <p className="text-sm font-semibold tracking-[0.16em] text-primary">
+              {hero.eyebrow}
+            </p>
+
+            <h1 className="mt-7 max-w-5xl text-balance text-5xl font-bold tracking-[-0.045em] text-brand-heading sm:text-6xl lg:text-8xl lg:leading-[0.98]">
+              {hero.title}
+            </h1>
+
+            <p className="mt-8 max-w-3xl text-lg leading-8 text-muted-foreground sm:text-xl sm:leading-9">
+              {hero.description}
+            </p>
+
+            <div className="mt-9">
+              <Link
+                href="#opportunities"
+                className="group inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-all duration-300 hover:gap-3 hover:opacity-90"
+              >
+                Explore Opportunities
+                <ArrowRight className="size-4 transition-transform duration-300 group-hover:translate-x-0.5" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </Container>
+    </section>
+  );
+}

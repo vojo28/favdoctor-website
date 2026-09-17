@@ -1,7 +1,8 @@
 export const navigation = [
    
   { label: "Home",   href: "/",},
-  { label: "Ecosystem", href: "/ecosystem" },
+  { label: "About", href: "/about" },
+  { label: "Careline", href: "/ecosystem/careline" },
   { label: "Research", href: "/research" },
   { label: "Partnerships", href: "/partnerships" },
    { label: "Insights", href: "/insights" },
