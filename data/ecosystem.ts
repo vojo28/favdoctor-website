@@ -57,9 +57,9 @@ export const ecosystem = {
   },
   {
     name: "BP Insights",
-    category: "Hypertension",
+    category: "Cardiovascular Health",
     description:
-      "Blood pressure tracking and follow-up tools designed to support earlier action and continuity of care.",
+      "Helping individuals and healthcare organizations prevent hypertension and cardiovascular disease through monitoring, follow-up, and health intelligence.",
     href: "ecosystem/bp-insights",
   },
   {
@@ -71,7 +71,7 @@ export const ecosystem = {
   },
   {
     name: "FavDoctor Research Lab",
-    category: "Research & Implementation",
+    category: "Healthcare Research & Implementation",
     description:
       "A research and implementation arm focused on translating evidence into practical healthcare solutions.",
     href: "/research",

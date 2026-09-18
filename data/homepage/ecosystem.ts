@@ -30,34 +30,34 @@ export const ecosystem = {
 
     {
       title: "BP Insights",
-      subtitle: "",
+      subtitle: "Cardiovascular Health",
       description:
         "Helping individuals and healthcare organizations prevent hypertension and cardiovascular disease through monitoring, follow-up, and health intelligence.",
       href: "/ecosystem/bpinsights",
     },
 
-    {
-      title: "FavPharma",
-      subtitle: "",
-      description:
-        "Improving medicine access and strengthening continuity of care by connecting people with trusted pharmacy services.",
-      href: "/ecosystem/favpharma",
-    },
+        {
+    title: "Health Insight",
+    subtitle: "Population Health",
+    description:
+      "A technology-enabled population health system that helps organisations reach people earlier, understand health needs, identify risks, and support better health outcomes.",
+    href: "/health-insight",
+  },
 
-    {
-      title: "Health Trust",
-      subtitle: "",
-      description:
-        "Building trust in healthcare through provider verification, quality standards, trusted healthcare information, and transparency.",
-      href: "/ecosystem/health-trust",
-    },
-
+    
     {
       title: "FavDoctor Research Lab",
-      subtitle: "",
+      subtitle: "Healthcare Research & Implementation",
       description:
         "Generating evidence that strengthens healthcare programmes, informs policy, and transforms research into practical healthcare solutions.",
       href: "/research",
+    },
+    {
+      title: "Health Trust",
+      subtitle: "Healthcare Trust",
+      description:
+        "Building trust in healthcare through provider verification, quality standards, trusted healthcare information, and transparency.",
+      href: "/ecosystem/health-trust",
     },
   ],
 } as const;

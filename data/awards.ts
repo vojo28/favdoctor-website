@@ -78,7 +78,7 @@ export const awards = {
   ctas: [
     {
       label: "Partner With Us",
-      href: "/partnership",
+      href: "/partnerships",
     },
     {
       label: "Explore Careers",
