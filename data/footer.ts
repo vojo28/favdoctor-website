@@ -15,7 +15,7 @@ export const footer = {
     { label: "LinkedIn", href: "https://www.linkedin.com/company/favdoctor" },
     { label: "Facebook", href: "https://facebook.com/favdoctor" },
     { label: "Instagram", href: "https://instagram.com/favdoctor" },
-    { label: "X", href: "https://x.com/favdoctor" },
+    { label: "X", href: "https://x.com/favdoctor"},
     { label: "WhatsApp", href: "https://wa.me/+2348110811820" },
   ],
 
