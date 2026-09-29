@@ -32,13 +32,7 @@ export const about = {
         alt: "Victor Ojo, Founder and CEO of FavDoctor",
       },
     },
-    {
-      name: "Edidiong Sebastian",
-      role: "Operations",
-      image: {
-        src: "/images/team/edidiong-sebastian.webp",
-        alt: "Edidiong Sebastian, Operations at FavDoctor",
-      },
+   
     },
     {
       name: "Obafemi Olaoluwa",
