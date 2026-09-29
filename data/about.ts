@@ -32,8 +32,7 @@ export const about = {
         alt: "Victor Ojo, Founder and CEO of FavDoctor",
       },
     },
-   
-    },
+    
     {
       name: "Obafemi Olaoluwa",
       role: "Design & Strategy",
